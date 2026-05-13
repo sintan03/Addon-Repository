@@ -1,0 +1,6 @@
+{
+  "ui_defs": [
+    "ui/main/mine_crafter.json",
+    "ui/main/mine_util.json"
+  ]
+}
