@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "invisiblemini:entity_destroyer_mini.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            "E"
+        ],
+        "key": {
+            "E": {
+                "item": "invisible:entity_destroyer"
+            }
+        },
+        "unlock": [
+            {
+                "item": "invisible:entity_destroyer"
+            }
+        ],
+        "result": {
+            "item": "invisiblemini:entity_destroyer_mini",
+            "count": 1
+        }
+    }
+}

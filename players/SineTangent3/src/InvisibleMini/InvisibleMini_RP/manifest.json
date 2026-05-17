@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§b§lミニ極滅§r§f",
+    "description": "選択式極滅",
+    "uuid": "ec554766-d9fd-4d18-a655-ef3fbbb9ccfa",
+    "version": [
+      1,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      101
+    ]
+  },
+  "modules": [
+    {
+      "description": "Resources",
+      "type": "resources",
+      "uuid": "628d8c31-d5f9-4dc6-ad66-081aac7fcd78",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "eccba3c3-fa97-4133-8f78-dae760db50fe",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ]
+}

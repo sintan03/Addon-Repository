@@ -1,13 +1,14 @@
 # Addon-Repository
 アドオン置き場
+https://github.com/sintan03/Addon-Repository
 
 連携方法(詳しくは https://github.com/HABUPENN/gassakutest_addon)
 
 git clone <リポジトリのURL>
 
 PowerShell（管理者権限）<br>
-New-Item -ItemType SymbolicLink -Path Link_BP -Target BP<br>
-New-Item -ItemType SymbolicLink -Path Link_RP -Target RP
+New-Item -ItemType SymbolicLink -Path Link_BP -Target *BP<br>
+New-Item -ItemType SymbolicLink -Path Link_RP -Target *RP
 
 
 

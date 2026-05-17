@@ -1,0 +1,8 @@
+ui.invisible_mini.title=ミニ極滅
+text.invisible_mini.removed= が極滅されました
+text.invisible_mini.error=§cエンティティが存在しませんでした
+ui.invisible_mini.option.title=ミニ極滅設定
+ui.invisible_mini.destroy=極滅
+ui.invisible_mini.save=保存
+
+item.invisiblemini:entity_destroyer_mini=§bミニ極滅§r§f

@@ -1,9 +1,0 @@
-{
-	"resource_pack_name": "mac",
-	"texture_name": "atlas.items",
-	"texture_data": {
-		"mac:uiarrow": {
-			"textures": "textures/items/uiarrow"
-		}
-	}
-}
