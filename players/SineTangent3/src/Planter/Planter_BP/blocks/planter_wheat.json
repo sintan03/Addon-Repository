@@ -15,7 +15,7 @@
 				"planter:tick"
 			],
 			"minecraft:tick": {
-				"interval_range": [600, 600]
+				"interval_range": [300, 300]
 			},
 			"minecraft:geometry": {
 				"identifier": "geometry.planter_wheat",

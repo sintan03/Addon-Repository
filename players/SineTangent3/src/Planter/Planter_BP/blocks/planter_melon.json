@@ -2,7 +2,7 @@
 	"format_version": "1.21.0",
 	"minecraft:block": {
 		"description": {
-			"identifier": "planter:planter_oak",
+			"identifier": "planter:planter_melon",
 			"menu_category": {
 				"category": "items"
 			},
@@ -18,7 +18,7 @@
 				"interval_range": [300, 300]
 			},
 			"minecraft:geometry": {
-				"identifier": "geometry.planter_oak",
+				"identifier": "geometry.planter_pumpkin",
 				"bone_visibility": {
 					"growth0": "q.block_state('planter:growth') == 0",
 					"growth1": "q.block_state('planter:growth') == 1",
@@ -32,7 +32,7 @@
 			},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "planter:planter_oak",
+					"texture": "planter:planter_melon",
 					"render_method": "alpha_test"
 				}
 			},

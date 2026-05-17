@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Planter",
-    "description": "Farm Crops!",
-    "uuid": "4626f883-20d3-492a-8700-10e444a09251",
+    "name": "Entry And Exit Manager",
+    "description": "A RA SU NA",
+    "uuid": "f7c0c8c8-6628-4263-940a-cc544977d7ef",
     "version": [
       1,
       0,
@@ -19,8 +19,8 @@
     {
       "type": "script",
       "language": "javascript",
-      "uuid": "97f82270-01dc-4bb7-94b8-29a1994f5ec5",
-      "entry": "scripts/plant.js",
+      "uuid": "28d465b9-a0bd-4bf4-add3-fba17d24c472",
+      "entry": "scripts/eaem.js",
       "version": [
         1,
         0,
@@ -28,9 +28,9 @@
       ]
     },
     {
-      "description": "Farm Crops!",
+      "description": "A RA SU NA",
       "type": "data",
-      "uuid": "e5ab68d9-3c68-4757-b977-719099905d06",
+      "uuid": "b76c1a5a-6687-4dea-b28b-053991b4e61b",
       "version": [
         1,
         0,
@@ -40,7 +40,7 @@
   ],
   "dependencies": [
     {
-      "uuid": "502e2d04-ab2f-45d3-bfc4-20d194c020a2",
+      "uuid": "85ef201c-0c6d-4660-8621-3fc127976865",
       "version": [
         1,
         0,
@@ -49,11 +49,11 @@
     },
     {
       "module_name": "@minecraft/server",
-      "version": "2.6.0"
+      "version": "beta"
     },
     {
       "module_name": "@minecraft/server-ui",
-      "version": "2.0.0"
+      "version": "beta"
     }
   ],
   "capabilities": [

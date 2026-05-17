@@ -2,18 +2,53 @@ import { world, system, ItemStack, Player, Block } from "@minecraft/server";
 
 const conversionPlanter = {
     "minecraft:wheat_seeds": "planter:planter_wheat",
-    "minecraft:oak_sapling": "planter:planter_oak"
+    "minecraft:carrot": "planter:planter_carrot",
+    "minecraft:potato": "planter:planter_potato",
+    "minecraft:beetroot_seeds": "planter:planter_beetroot",
+    "minecraft:pumpkin_seeds": "planter:planter_pumpkin",
+    "minecraft:melon_seeds": "planter:planter_melon",
+    "minecraft:oak_sapling": "planter:planter_oak",
+    "minecraft:sugar_cane": "planter:planter_sugar_cane",
+    "minecraft:kelp": "planter:planter_kelp",
+    "minecraft:bamboo": "planter:planter_bamboo"
 };
 
 const growResult = {
     "planter:planter_wheat": {
-        "minecraft:wheat": [1, 3],
-        "minecraft:wheat_seeds": [1, 4]
+        "minecraft:wheat": [1, 5],
+        "minecraft:wheat_seeds": [1, 2]
+    },
+    "planter:planter_carrot": {
+        "minecraft:carrot": [2, 5]
+    },
+    "planter:planter_potato": {
+        "minecraft:potato": [2, 5]
+    },
+    "planter:planter_beetroot": {
+        "minecraft:beetroot": [1, 5],
+        "minecraft:beetroot_seeds": [1, 2]
+    },
+    "planter:planter_pumpkin": {
+        "minecraft:pumpkin": [1, 4],
+        "minecraft:pumpkin_seeds": [1, 2]
+    },
+    "planter:planter_melon": {
+        "minecraft:melon_block": [1, 4],
+        "minecraft:melon_seeds": [1, 2]
     },
     "planter:planter_oak": {
-        "minecraft:oak_log": [1, 4],
+        "minecraft:oak_log": [4, 8],
         "minecraft:oak_sapling": [1, 2],
         "minecraft:apple": [-9, 1]
+    },
+    "planter:planter_sugar_cane": {
+        "minecraft:sugar_cane": [2, 8]
+    },
+    "planter:planter_kelp": {
+        "minecraft:kelp": [2, 12]
+    },
+    "planter:planter_bamboo": {
+        "minecraft:bamboo": [4, 16]
     }
 };
 
@@ -69,6 +104,13 @@ function growPlant(player, block, growResult) {
     growRandomTick(block, growResult, Math.floor(Math.random() * 4) + 2);
 };
 
+/**
+ * 
+ * @param { Block } block 
+ * @param { growResult } growResult 
+ * @param { Number } addGrowth 
+ * @returns 
+ */
 function growRandomTick(block, growResult, addGrowth = 1) {
     const blockId = block.typeId;
     if (!growResult[blockId]) return;
@@ -95,12 +137,18 @@ function growRandomTick(block, growResult, addGrowth = 1) {
                 if (!containerItem) {
                     const sub = Math.min(results[j], 64);
                     results[j] -= sub;
-                    container.setItem(i, new ItemStack(resultItemIds[j], sub));
+                    try {
+                        container.setItem(i, new ItemStack(resultItemIds[j], sub));
+                    } catch (e) { };
+                    break;
                 } else if (containerItem.amount < 64 && containerItem.typeId === resultItemIds[j]) {
                     const sub = Math.min(results[j], 64 - containerItem.amount);
                     results[j] -= sub;
                     containerItem.amount += sub;
-                    container.setItem(i, containerItem);
+                    try {
+                        container.setItem(i, containerItem);
+                    } catch (e) { };
+                    break;
                 };
             };
             if (results.find(f => f > 0) === undefined) break;
@@ -112,9 +160,11 @@ function growRandomTick(block, growResult, addGrowth = 1) {
 
 system.beforeEvents.startup.subscribe(init => {
     init.blockComponentRegistry.registerCustomComponent(`planter:click`, { onPlayerInteract(ev) { } });
-    init.blockComponentRegistry.registerCustomComponent(`planter:tick`, { onTick(ev) {
-        growRandomTick(ev.block, growResult);
-    } });
+    init.blockComponentRegistry.registerCustomComponent(`planter:tick`, {
+        onTick(ev) {
+            growRandomTick(ev.block, growResult);
+        }
+    });
 });
 
 world.beforeEvents.playerInteractWithBlock.subscribe(ev => {

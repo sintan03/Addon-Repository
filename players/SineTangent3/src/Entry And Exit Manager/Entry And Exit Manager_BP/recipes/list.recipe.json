@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "eaem:list.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "minecraft:paper"
+            },
+            {
+                "item": "minecraft:crafting_table"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:crafting_table"
+            }
+        ],
+        "result": {
+            "item": "eaem:list",
+            "count": 1
+        }
+    }
+}

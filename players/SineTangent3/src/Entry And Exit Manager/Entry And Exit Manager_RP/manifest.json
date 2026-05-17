@@ -1,39 +1,39 @@
 {
   "format_version": 2,
   "header": {
-    "name": "MAC",
-    "description": "Mine And Craft!",
-    "uuid": "2c0d2733-500a-4555-86f8-2c2c40da86e1",
+    "name": "Entry And Exit Manager",
+    "description": "A RA SU NA",
+    "uuid": "85ef201c-0c6d-4660-8621-3fc127976865",
     "version": [
       1,
       0,
-      3
+      1
     ],
     "min_engine_version": [
       1,
-      20,
-      0
+      21,
+      101
     ]
   },
   "modules": [
     {
       "description": "Resources",
       "type": "resources",
-      "uuid": "9704cd83-a2d8-4463-8338-6fe7cb1f5259",
+      "uuid": "2e67d2cb-fee4-4b71-b90f-887ab1e9ba3f",
       "version": [
         1,
         0,
-        3
+        1
       ]
     }
   ],
   "dependencies": [
     {
-      "uuid": "cc0618d9-afee-4883-9da3-383f6d4b1ae8",
+      "uuid": "f7c0c8c8-6628-4263-940a-cc544977d7ef",
       "version": [
         1,
         0,
-        3
+        1
       ]
     }
   ]

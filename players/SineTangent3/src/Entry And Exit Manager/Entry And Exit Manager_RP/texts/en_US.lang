@@ -1,0 +1,8 @@
+eaem.join.message=§eWhen you joined and left is recorded.§r§f
+eaem.form.title=Entry/Exit Log (%s)
+eaem.form.unde=There is no entry/exit log.
+eaem.form.entry.true=Entry
+eaem.form.entry.false=Exit
+eaem.form.label=PlayerName: %s Time: %s/%s %s:%s %s
+
+item.eaem:list=Entry/Exit List

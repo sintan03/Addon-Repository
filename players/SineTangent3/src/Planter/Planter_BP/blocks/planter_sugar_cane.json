@@ -2,7 +2,7 @@
 	"format_version": "1.21.0",
 	"minecraft:block": {
 		"description": {
-			"identifier": "planter:planter_oak",
+			"identifier": "planter:planter_sugar_cane",
 			"menu_category": {
 				"category": "items"
 			},
@@ -32,7 +32,7 @@
 			},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "planter:planter_oak",
+					"texture": "planter:planter_sugar_cane",
 					"render_method": "alpha_test"
 				}
 			},
