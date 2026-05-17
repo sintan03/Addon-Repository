@@ -1,0 +1,40 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "planter:planter_empty",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:custom_components": [
+				"planter:click"
+			],
+			"minecraft:geometry": {
+				"identifier": "geometry.planter_empty"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "planter:planter_empty",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"size": [8, 4, 8],
+				"origin": [-4, 0, -4]
+			},
+			"minecraft:selection_box": {
+				"size": [8, 4, 8],
+				"origin": [-4, 0, -4]
+			},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.0
+            },
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 4
+            }
+		}
+	}
+}

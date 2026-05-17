@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Entry And Exit Manager",
+    "description": "A RA SU NA",
+    "uuid": "f7c0c8c8-6628-4263-940a-cc544977d7ef",
+    "version": [
+      1,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      101
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "28d465b9-a0bd-4bf4-add3-fba17d24c472",
+      "entry": "scripts/eaem.js",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "description": "A RA SU NA",
+      "type": "data",
+      "uuid": "b76c1a5a-6687-4dea-b28b-053991b4e61b",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "85ef201c-0c6d-4660-8621-3fc127976865",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "beta"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}

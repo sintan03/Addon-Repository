@@ -1,0 +1,8 @@
+ui.invisible_mini.title=Invisible Mini
+text.invisible_mini.removed= has removed.
+text.invisible_mini.error=§cThe entity did not exist.
+ui.invisible_mini.option.title=Invisible Mini Option
+ui.invisible_mini.destroy=Destroy
+ui.invisible_mini.save=Save
+
+item.invisiblemini:entity_destroyer_mini=§bEntity Destroyer Mini§r§f

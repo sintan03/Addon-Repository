@@ -1,0 +1,41 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"planter:planter_empty": {
+			"textures": "textures/blocks/planter_empty"
+		},
+		"planter:planter_wheat": {
+			"textures": "textures/blocks/planter_wheat"
+		},
+		"planter:planter_carrot": {
+			"textures": "textures/blocks/planter_carrot"
+		},
+		"planter:planter_potato": {
+			"textures": "textures/blocks/planter_potato"
+		},
+		"planter:planter_beetroot": {
+			"textures": "textures/blocks/planter_beetroot"
+		},
+		"planter:planter_pumpkin": {
+			"textures": "textures/blocks/planter_pumpkin"
+		},
+		"planter:planter_melon": {
+			"textures": "textures/blocks/planter_melon"
+		},
+		"planter:planter_oak": {
+			"textures": "textures/blocks/planter_oak"
+		},
+		"planter:planter_sugar_cane": {
+			"textures": "textures/blocks/planter_sugar_cane"
+		},
+		"planter:planter_kelp": {
+			"textures": "textures/blocks/planter_kelp"
+		},
+		"planter:planter_bamboo": {
+			"textures": "textures/blocks/planter_bamboo"
+		}
+	}
+}

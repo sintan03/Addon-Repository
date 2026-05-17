@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§b§lミニ極滅§r§f",
+    "description": "選択式極滅",
+    "uuid": "eccba3c3-fa97-4133-8f78-dae760db50fe",
+    "version": [
+      1,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      101
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "adc6e08b-d7ee-4d68-9510-c4c835017fdb",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "description": "選択式極滅",
+      "type": "data",
+      "uuid": "c64cce5d-15dc-4059-a178-64306e063ec2",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "ec554766-d9fd-4d18-a655-ef3fbbb9ccfa",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.6.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}

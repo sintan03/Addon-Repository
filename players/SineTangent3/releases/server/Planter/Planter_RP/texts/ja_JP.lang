@@ -1,0 +1,11 @@
+tile.planter:planter_empty.name=プランター
+tile.planter:planter_wheat.name=小麦のプランター
+tile.planter:planter_carrot.name=ニンジンのプランター
+tile.planter:planter_potato.name=ジャガイモのプランター
+tile.planter:planter_beetroot.name=ビートルートのプランター
+tile.planter:planter_melon.name=スイカのプランター
+tile.planter:planter_pumpkin.name=カボチャのプランター
+tile.planter:planter_oak.name=オークのプランター
+tile.planter:planter_sugar_cane.name=サトウキビのプランター
+tile.planter:planter_kelp.name=コンブのプランター
+tile.planter:planter_bamboo.name=竹のプランター

@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Planter",
+    "description": "Farm Crops!",
+    "uuid": "4626f883-20d3-492a-8700-10e444a09251",
+    "version": [
+      1,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      101
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "97f82270-01dc-4bb7-94b8-29a1994f5ec5",
+      "entry": "scripts/plant.js",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "description": "Farm Crops!",
+      "type": "data",
+      "uuid": "e5ab68d9-3c68-4757-b977-719099905d06",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "502e2d04-ab2f-45d3-bfc4-20d194c020a2",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.6.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}

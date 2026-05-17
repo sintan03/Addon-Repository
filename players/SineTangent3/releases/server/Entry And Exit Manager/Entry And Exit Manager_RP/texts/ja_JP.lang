@@ -1,0 +1,8 @@
+eaem.join.message=§eあなたがいつ参加、退出したかは保存されています§r§f
+eaem.form.title=入退ログ (%s)
+eaem.form.unde=入退ログがありません
+eaem.form.entry.true=参加
+eaem.form.entry.false=退出
+eaem.form.label=プレイヤー名: %s 時間: %s/%s %s:%s %s
+
+item.eaem:list=入退ログ

@@ -1,0 +1,56 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "planter:planter_oak",
+			"menu_category": {
+				"category": "items"
+			},
+			"states": {
+				"planter:growth": [0, 1, 2, 3, 4, 5, 6, 7]
+			}
+		},
+		"components": {
+			"minecraft:custom_components": [
+				"planter:tick"
+			],
+			"minecraft:tick": {
+				"interval_range": [300, 300]
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.planter_oak",
+				"bone_visibility": {
+					"growth0": "q.block_state('planter:growth') == 0",
+					"growth1": "q.block_state('planter:growth') == 1",
+					"growth2": "q.block_state('planter:growth') == 2",
+					"growth3": "q.block_state('planter:growth') == 3",
+					"growth4": "q.block_state('planter:growth') == 4",
+					"growth5": "q.block_state('planter:growth') == 5",
+					"growth6": "q.block_state('planter:growth') == 6",
+					"growth7": "q.block_state('planter:growth') == 7"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "planter:planter_oak",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:collision_box": {
+				"size": [8, 4, 8],
+				"origin": [-4, 0, -4]
+			},
+			"minecraft:selection_box": {
+				"size": [8, 4, 8],
+				"origin": [-4, 0, -4]
+			},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.0
+            },
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 4
+            }
+		}
+	}
+}

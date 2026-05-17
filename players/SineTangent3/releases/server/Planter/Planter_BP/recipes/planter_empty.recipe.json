@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "planter:planter_empty.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            "TDT",
+            "THT",
+            " T "
+        ],
+        "key": {
+            "T": {
+                "item": "minecraft:hardened_clay"
+            },
+            "H": {
+                "item": "minecraft:hopper"
+            },
+            "D": {
+                "item": "minecraft:dirt"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:crafting_table"
+            }
+        ],
+        "result": {
+            "item": "planter:planter_empty",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "MAC",
+    "description": "Mine And Craft!",
+    "uuid": "cc0618d9-afee-4883-9da3-383f6d4b1ae8",
+    "version": [
+      1,
+      0,
+      3
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "8971418b-c8a3-4be1-8435-dc4360751d03",
+      "entry": "scripts/mac.js",
+      "version": [
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "description": "Mine And Craft!",
+      "type": "data",
+      "uuid": "99c13084-c11c-4c15-bccc-47c10d4e4dd4",
+      "version": [
+        1,
+        0,
+        3
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "2c0d2733-500a-4555-86f8-2c2c40da86e1",
+      "version": [
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.6.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}

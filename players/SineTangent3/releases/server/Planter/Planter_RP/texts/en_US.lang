@@ -1,0 +1,11 @@
+tile.planter:planter_empty.name=Planter
+tile.planter:planter_wheat.name=Planter Wheat
+tile.planter:planter_carrot.name=Planter Carrot
+tile.planter:planter_potato.name=Planter Potato
+tile.planter:planter_beetroot.name=Planter Beetroot
+tile.planter:planter_melon.name=Planter Melon
+tile.planter:planter_pumpkin.name=Planter Pumpkin
+tile.planter:planter_oak.name=Planter Oak
+tile.planter:planter_sugar_cane.name=Planter Suger Cane
+tile.planter:planter_kelp.name=Planter Kelp
+tile.planter:planter_bamboo.name=Planter Bamboo
