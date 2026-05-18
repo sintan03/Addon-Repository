@@ -1,3 +1,3 @@
-import * as server from "@minecraft/server";
-import * as ui from "@minecraft/server-ui";
+import { world, system } from "@minecraft/server";
+import { CustomForm, Observable } from "@minecraft/server-ui";
 
