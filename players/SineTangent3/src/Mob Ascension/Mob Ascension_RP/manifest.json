@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Mob Ascension",
+    "description": "敵強化アドオン",
+    "uuid": "2774952c-ee2e-4a40-92f1-8cbf124865c2",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      101
+    ]
+  },
+  "modules": [
+    {
+      "description": "Resources",
+      "type": "resources",
+      "uuid": "9bdda957-df11-4c98-b43f-b3e77ef505cd",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "8c43277c-d19a-4160-9035-05ea40e613a2",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

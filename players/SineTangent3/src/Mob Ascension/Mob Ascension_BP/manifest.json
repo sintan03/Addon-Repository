@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Mob Ascension",
+    "description": "敵強化アドオン",
+    "uuid": "8c43277c-d19a-4160-9035-05ea40e613a2",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      101
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "20e708bc-a0c1-4e3d-8da1-796880ff0c2d",
+      "entry": "scripts/mob.js",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "description": "敵強化アドオン",
+      "type": "data",
+      "uuid": "83c7015c-1475-4920-bdec-4ac2d5e70f4a",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "2774952c-ee2e-4a40-92f1-8cbf124865c2",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.6.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }    
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}
