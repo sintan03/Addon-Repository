@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "name": "blazeio:itemGroup.name.generators",
+              "icon": "blazeio:fuel_generator_tier1"
+            },
+            "items": [
+              "blazeio:fuel_generator_tier1",
+              "blazeio:macerator_tier1",
+              "blazeio:connecter",
+              "blazeio:crushed_iron_ore",
+              "blazeio:crushed_gold_ore",
+              "blazeio:crushed_copper_ore"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

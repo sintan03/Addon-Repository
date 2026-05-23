@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Over HP Addon",
+		"description": "pack.description",
+		"uuid": "dff6dbea-2a56-4f96-ba89-42687c561422",
+		"version": [1, 0, 1],
+		"min_engine_version": [1, 21, 101]
+	},
+	"modules": [
+		{
+			"description": "Resources",
+			"type": "resources",
+			"uuid": "a34532e0-dc44-4107-922e-a1fd7fbb0b7e",
+			"version": [1, 0, 1]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "129a19ab-9a76-419b-a4f4-79e2533b6e91",
+			"version": [1, 0, 1]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_item_wizard": ["1.2.4"]
+		}
+	}
+}

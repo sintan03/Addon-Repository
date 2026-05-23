@@ -1,0 +1,16 @@
+{
+	"texture_data": {
+		"over_hp_reloader": {
+			"textures": "textures/items/over_hp_reloader.png"
+		},
+		"over_hp_tier3": {
+			"textures": "textures/items/over_hp_tier3.png"
+		},
+		"over_hp_tier2": {
+			"textures": "textures/items/over_hp_tier2.png"
+		},
+		"over_hp_tier1": {
+			"textures": "textures/items/over_hp_tier1.png"
+		}
+	}
+}

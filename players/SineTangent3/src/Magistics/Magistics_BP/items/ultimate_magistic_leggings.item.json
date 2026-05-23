@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "magistics:ultimate_magistic_leggings",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.leggings"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "ultimate_magistic_leggings",
+			"minecraft:wearable": {
+				"slot": "slot.armor.legs",
+				"protection": 5
+			},
+			"minecraft:enchantable": {
+				"slot": "flintsteel",
+				"value": 50
+			},
+			"minecraft:durability": {
+				"max_durability": 2048
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["magistics:ultimate_mana_crystal"],
+						"repair_amount": 512
+					}
+				]
+			}
+		}
+	}
+}

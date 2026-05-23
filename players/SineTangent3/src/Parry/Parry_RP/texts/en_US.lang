@@ -1,0 +1,8 @@
+pack.name=Parry Addon
+pack.description=Parry! Parry! Parry! Parry!
+item.parry:parry_shield=Parry Shield
+item.parry:parry_lance=Lance
+item.parry:parry_long_sword=Long Sword
+item.parry:parry_long_sword_white=§lLong Sword§r§f
+item.parry:parry_long_sword_yellow=§l§eLong Sword§r§f
+item.parry:parry_long_sword_red=§l§cLong Sword§r§f

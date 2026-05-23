@@ -1,0 +1,15 @@
+{
+	"resource_pack_name": "blazeio",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"sineboss:crushers_axe": {
+			"textures": "textures/items/crushers_axe"
+		},
+		"sineboss:crusher_summoner": {
+			"textures": "textures/items/crusher_summoner"
+		},
+		"sineboss:crushers_crystal": {
+			"textures": "textures/items/crushers_crystal"
+		}
+	}
+}

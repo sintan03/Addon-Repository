@@ -1,0 +1,97 @@
+{
+	"texture_data": {
+		"64_byte_register": {
+			"textures": "textures/items/64_byte_register.png"
+		},
+		"16_byte_register": {
+			"textures": "textures/items/16_byte_register.png"
+		},
+		"instruction_decoder": {
+			"textures": "textures/items/instruction_decoder.png"
+		},
+		"6_byte_memory": {
+			"textures": "textures/items/6_byte_memory.png"
+		},
+		"conditions": {
+			"textures": "textures/items/conditions.png"
+		},
+		"be_conditions": {
+			"textures": "textures/items/be_conditions.png"
+		},
+		"alu": {
+			"textures": "textures/items/alu.png"
+		},
+		"6_switch": {
+			"textures": "textures/items/6_switch.png"
+		},
+		"3_bit_decoder": {
+			"textures": "textures/items/3_bit_decoder.png"
+		},
+		"counter": {
+			"textures": "textures/items/counter.png"
+		},
+		"8_bit_memory": {
+			"textures": "textures/items/8_bit_memory.png"
+		},
+		"1_bit_memory": {
+			"textures": "textures/items/1_bit_memory.png"
+		},
+		"input_selector": {
+			"textures": "textures/items/input_selector.png"
+		},
+		"8_bigger_and_gate": {
+			"textures": "textures/items/8_bigger_and_gate.png"
+		},
+		"bigger_and_gate": {
+			"textures": "textures/items/bigger_and_gate.png"
+		},
+		"signed_negator": {
+			"textures": "textures/items/signed_negator.png"
+		},
+		"adding_byte": {
+			"textures": "textures/items/adding_byte.png"
+		},
+		"byte_not": {
+			"textures": "textures/items/byte_not.png"
+		},
+		"byte_and": {
+			"textures": "textures/items/byte_and.png"
+		},
+		"byte_or": {
+			"textures": "textures/items/byte_or.png"
+		},
+		"full_adder": {
+			"textures": "textures/items/full_adder.png"
+		},
+		"harf_adder": {
+			"textures": "textures/items/harf_adder.png"
+		},
+		"xnor_gate": {
+			"textures": "textures/items/xnor_gate.png"
+		},
+		"xor_gate": {
+			"textures": "textures/items/xor_gate.png"
+		},
+		"nor_gate": {
+			"textures": "textures/items/nor_gate.png"
+		},
+		"not_gate": {
+			"textures": "textures/items/not_gate.png"
+		},
+		"or_gate": {
+			"textures": "textures/items/or_gate.png"
+		},
+		"and_gate": {
+			"textures": "textures/items/and_gate.png"
+		},
+		"nand_gate": {
+			"textures": "textures/items/nand_gate.png"
+		},
+		"32_byte_register": {
+			"textures": "textures/items/32_byte_register.png"
+		},
+		"8_byte_register": {
+			"textures": "textures/items/8_byte_register.png"
+		}
+	}
+}

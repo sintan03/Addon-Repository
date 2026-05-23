@@ -1,0 +1,70 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sineboss:true_crushers_axe",
+            "menu_category": {
+                "category": "equipment",
+                "group": "minecraft:itemGroup.name.axe"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "sineboss:crushers_axe"
+                }
+            },
+            "minecraft:glint": true,
+            "minecraft:damage": {
+                "value": 9
+            },
+            "minecraft:enchantable": {
+                "slot": "axe",
+                "value": 30
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:can_destroy_in_creative": false,
+            "minecraft:durability": {
+                "max_durability": 2000
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:digger": {
+                "destroy_speeds": [
+                    {
+                        "speed": 20,
+                        "block": {
+                            "tags": "query.any_tag('minecraft:is_axe_item_destructible')"
+                        }
+                    },
+                    {
+                        "speed": 20,
+                        "block": {
+                            "tags": "query.any_tag('wood')"
+                        }
+                    },
+                    {
+                        "speed": 20,
+                        "block": {
+                            "tags": "query.any_tag('grass')"
+                        }
+                    }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_tool",
+                    "minecraft:is_axe",
+                    "minecraft:netherite_tier"
+                ]
+            },
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sineboss:true_crushers_crystal"],
+						"repair_amount": 500
+					}
+				]
+			}
+        }
+    }
+}

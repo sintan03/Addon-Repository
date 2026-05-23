@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.parry_long_sword_white.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [75.2576, 119.9362, -221.3713],
+					"position": [3, 24, 7]
+				}
+			}
+		},
+		"animation.parry_long_sword_white.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [-107.5, 0, 0],
+					"position": [-0.5, 19.5, 1.5]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "8bitCPU",
+		"description": "低性能CPU",
+		"uuid": "5c9dc4a5-3dd8-43c4-a6e2-f3c2805506f7",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"modules": [
+		{
+			"description": "Resources",
+			"type": "resources",
+			"uuid": "b7107160-e7e0-4d67-a013-240d43e6b3b1",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "08a989f3-311f-4bce-957b-bb7638cdd0af",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_block_wizard": ["1.5.2"],
+			"blockbench_item_wizard": ["1.2.4"]
+		}
+	}
+}

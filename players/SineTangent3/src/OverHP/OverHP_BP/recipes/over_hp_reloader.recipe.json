@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "overhp:over_hp_reloader.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": true,
+        "priority": 1,
+        "pattern": [
+            "DDD",
+            "QQL",
+            "QQL"
+        ],
+        "key": {
+            "Q": {
+                "item": "minecraft:quartz"
+            },
+            "L": {
+                "item": "minecraft:lapis_lazuli"
+            },
+            "D": {
+                "item": "minecraft:diamond"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:cobblestone"
+            }
+        ],
+        "result": {
+            "item": "overhp:over_hp_reloader",
+            "count": 1
+        }
+    }
+}

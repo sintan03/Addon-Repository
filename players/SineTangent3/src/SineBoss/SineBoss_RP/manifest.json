@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"uuid": "9fccc548-53ec-4fd6-b07b-ca42fa2c80d3",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"modules": [
+		{
+			"description": "Resources",
+			"type": "resources",
+			"uuid": "306aa9d7-44d3-441f-81d6-28b383819da9",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "0575d2fc-623a-4cbf-a55d-d0be15856519",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	}
+}

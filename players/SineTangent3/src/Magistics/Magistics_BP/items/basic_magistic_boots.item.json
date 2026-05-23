@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "magistics:basic_magistic_boots",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.boots"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "basic_magistic_boots",
+			"minecraft:wearable": {
+				"slot": "slot.armor.feet",
+				"protection": 1
+			},
+			"minecraft:durability": {
+				"max_durability": 256
+			},
+			"minecraft:enchantable": {
+				"slot": "flintsteel",
+				"value": 6
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["magistics:basic_mana_crystal"],
+						"repair_amount": 64
+					}
+				]
+			}
+		}
+	}
+}

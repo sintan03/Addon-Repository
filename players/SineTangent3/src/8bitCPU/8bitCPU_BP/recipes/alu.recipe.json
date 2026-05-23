@@ -1,0 +1,48 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "bytecpu:alu.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            "DOT",
+            "NAT",
+            "BBS"
+        ],
+        "key": {
+            "D": {  
+                "item": "bytecpu:3_bit_decoder"
+            },
+            "S": {  
+                "item": "bytecpu:6_switch"
+            },
+            "N": {  
+                "item": "bytecpu:signed_negator"
+            },
+            "O": {  
+                "item": "bytecpu:byte_or"
+            },
+            "A": {  
+                "item": "bytecpu:byte_and"
+            },
+            "T": {
+                "item": "bytecpu:byte_not"
+            },
+            "B": {  
+                "item": "bytecpu:adding_byte"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:copper_ingot"
+            }
+        ],
+        "result": {
+            "item": "bytecpu:alu",
+            "count": 1
+        }
+    }
+}

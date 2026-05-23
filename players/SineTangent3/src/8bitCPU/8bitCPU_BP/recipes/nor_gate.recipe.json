@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "bytecpu:nor_gate.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            "OT"
+        ],
+        "key": {
+            "O": {
+                "item": "bytecpu:or_gate"
+            },
+            "T": {
+                "item": "bytecpu:not_gate"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:copper_ingot"
+            }
+        ],
+        "result": {
+            "item": "bytecpu:nor_gate",
+            "count": 1
+        }
+    }
+}

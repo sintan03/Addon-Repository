@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "fastfood:fast_dried_kelp.recipe"
+        },
+
+        "tags": [ "crafting_fast" ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "item": "minecraft:dried_kelp",
+                "count": 1
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:dried_kelp"
+            }
+        ],
+        "result": {
+            "item": "fastfood:fast_dried_kelp",
+            "count": 1
+        }
+    }
+}

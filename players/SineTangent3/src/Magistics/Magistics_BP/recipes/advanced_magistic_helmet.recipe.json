@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "magistics:advanced_magistic_helmet.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "magistics:awakening_advanced_mana_crystal"
+            },
+            {
+                "item": "magistics:basic_magistic_helmet"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "magistics:advanced_mana_crystal"
+            }
+        ],
+        "result": {
+            "item": "magistics:advanced_magistic_helmet",
+            "count": 1
+        }
+    }
+}

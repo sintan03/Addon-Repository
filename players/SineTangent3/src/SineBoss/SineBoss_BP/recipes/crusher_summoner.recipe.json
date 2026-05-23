@@ -1,0 +1,54 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "sineboss:crusher_summoner.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "minecraft:blue_dye"
+            },
+            {
+                "item": "minecraft:lapis_lazuli"
+            },
+            {
+                "item": "minecraft:blue_dye"
+            },
+            {
+                "item": "minecraft:lapis_lazuli"
+            },
+            {
+                "item": "minecraft:emerald"
+            },
+            {
+                "item": "minecraft:lapis_lazuli"
+            },
+            {
+                "item": "minecraft:blue_dye"
+            },
+            {
+                "item": "minecraft:lapis_lazuli"
+            },
+            {
+                "item": "minecraft:blue_dye"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:lapis_lazuli"
+            },
+            {
+                "item": "minecraft:cobblestone"
+            },
+            {
+                "item": "minecraft:stick"
+            }
+        ],
+        "result": {
+            "item": "sineboss:crusher_summoner",
+            "count": 1
+        }
+    }
+}

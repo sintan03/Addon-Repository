@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "cd371a65-f4bc-4ad2-868b-9817422c3679",
+    "version": [
+      1,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "ca11e4d1-1b7e-4cde-b369-a84da3350960",
+      "entry": "scripts/blazeio.js",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "description": "pack.description",
+      "type": "data",
+      "uuid": "68cd0b0b-9cb3-4cae-b031-280c0b7a9dd2",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "007b493d-6536-46c2-871e-289939c9e1f6",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.6.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "bytecpu:8_byte_register.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "bytecpu:8_bit_memory",
+                "count": 8
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:copper_ingot"
+            }
+        ],
+        "result": {
+            "item": "bytecpu:8_byte_register",
+            "count": 1
+        }
+    }
+}

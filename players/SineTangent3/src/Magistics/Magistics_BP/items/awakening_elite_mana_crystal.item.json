@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "magistics:awakening_elite_mana_crystal",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": "awakening_elite_mana_crystal"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "blazeio:fuel_generator_tier1.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            "ICI",
+            "CFC",
+            "ICI"
+        ],
+        "key": {
+            "F": {
+                "item": "minecraft:furnace"
+            },
+            "I": {
+                "item": "minecraft:iron_ingot"
+            },
+            "C": {
+                "item": "minecraft:copper_ingot"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:iron_ingot"
+            }
+        ],
+        "result": {
+            "item": "blazeio:fuel_generator_tier1",
+            "count": 1
+        }
+    }
+}

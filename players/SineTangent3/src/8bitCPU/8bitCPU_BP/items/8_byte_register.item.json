@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bytecpu:8_byte_register",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+      		"minecraft:hand_equipped":true,
+			"minecraft:icon": "8_byte_register"
+		}
+	}
+}

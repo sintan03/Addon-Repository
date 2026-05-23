@@ -1,0 +1,12 @@
+pack.description=Compatible with other HP enhancement addons
+item.overhp:over_hp_tier1=Over HP Tier1\n§7Can be used up to 5 times.
+item.overhp:over_hp_tier2=Over HP Tier2\n§7Can be used up to 5 times.
+item.overhp:over_hp_tier3=Over HP Tier3\n§7Can be used up to 5 times.
+item.overhp:over_hp_reloader=Over HP Reloader\n§7Right-click to recalculate HP,\nShift + right-click to display the current number of uses.
+
+message.overhp.reloading=§eOver HP Reloading...
+message.overhp.reloadend=§eOver HP Reload Comprete!
+message.overhp.count=§eUsage Count
+message.overhp.use=§eHP has increased.
+message.overhp.overuse=§cIt is either not yet available for use, or the usage limit has been reached.
+message.overhp.checking=§cOver HP Reloading

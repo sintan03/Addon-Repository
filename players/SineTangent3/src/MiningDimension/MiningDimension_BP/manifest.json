@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "95f74dab-0bc7-4f42-bf68-d62e68d6576b",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      101
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "c65bc9e4-1372-44f5-bd1b-d07ffd6f30c2",
+      "entry": "scripts/mining.js",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "description": "pack.description",
+      "type": "data",
+      "uuid": "7bc656c1-dc1d-4960-b506-77a62f36de70",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a7f3ae46-f611-4965-afcc-eda8d6d4f678",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}

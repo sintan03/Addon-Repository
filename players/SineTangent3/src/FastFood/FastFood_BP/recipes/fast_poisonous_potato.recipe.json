@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "fastfood:fast_poisonous_potato.recipe"
+        },
+
+        "tags": [ "crafting_fast" ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "item": "minecraft:poisonous_potato",
+                "count": 1
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:poisonous_potato"
+            }
+        ],
+        "result": {
+            "item": "fastfood:fast_poisonous_potato",
+            "count": 1
+        }
+    }
+}

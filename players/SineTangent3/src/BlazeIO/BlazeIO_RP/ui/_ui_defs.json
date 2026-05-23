@@ -1,0 +1,7 @@
+{
+  "ui_defs": [
+    "ui/generators/fuel_generator_tier1.json",
+    "ui/generators/macerator_tier1.json",
+    "ui/generators/machine_util.json"
+  ]
+}

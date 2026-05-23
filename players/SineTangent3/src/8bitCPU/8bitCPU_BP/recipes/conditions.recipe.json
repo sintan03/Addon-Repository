@@ -1,0 +1,39 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "bytecpu:conditions.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            "OBO",
+            "OCN",
+            "OON"
+        ],
+        "key": {
+            "C": {
+                "item": "bytecpu:be_conditions"
+            },
+            "B": {
+                "item": "bytecpu:3_bit_decoder"
+            },
+            "O": {
+                "item": "bytecpu:or_gate"
+            },
+            "N": {
+                "item": "bytecpu:not_gate"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:copper_ingot"
+            }
+        ],
+        "result": {
+            "item": "bytecpu:conditions",
+            "count": 1
+        }
+    }
+}

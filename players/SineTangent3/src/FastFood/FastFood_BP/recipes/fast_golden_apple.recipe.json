@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "fastfood:fast_golden_apple.recipe"
+        },
+
+        "tags": [ "crafting_fast" ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "item": "minecraft:golden_apple",
+                "count": 1
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:golden_apple"
+            }
+        ],
+        "result": {
+            "item": "fastfood:fast_golden_apple",
+            "count": 1
+        }
+    }
+}

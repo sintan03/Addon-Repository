@@ -1,0 +1,16 @@
+pack.name=§l§gBlazeIO§r§f
+pack.description=工業アドオン
+
+item.blazeio:connecter=接続機
+item.blazeio:crushed_iron_ore=粉砕した鉄の原石
+item.blazeio:crushed_gold_ore=粉砕した金の原石
+item.blazeio:crushed_copper_ore=粉砕した銅の原石
+
+tile.blazeio:fuel_generator_tier1.name=燃料発電機ティア1
+ui.blazeio:fuel_generator_tier1.title=燃料発電機ティア1
+tile.blazeio:macerator_tier1.name=粉砕機ティア1
+ui.blazeio:macerator_tier1.title=粉砕機ティア1
+
+item.blazeio:bg_energy=Energy
+
+blazeio:itemGroup.name.generators=発電機

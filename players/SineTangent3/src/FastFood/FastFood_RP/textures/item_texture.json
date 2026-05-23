@@ -1,0 +1,64 @@
+{
+	"texture_data": {
+		"fast_chorus_fruit": {
+			"textures": "textures/items/fast_chorus_fruit.png"
+		},
+		"fast_enchanted_golden_apple": {
+			"textures": "textures/items/fast_enchanted_golden_apple.png"
+		},
+		"fast_golden_apple": {
+			"textures": "textures/items/fast_golden_apple.png"
+		},
+		"fast_apple": {
+			"textures": "textures/items/fast_apple.png"
+		},
+		"fast_dried_kelp": {
+			"textures": "textures/items/fast_dried_kelp.png"
+		},
+		"fast_melon_slice": {
+			"textures": "textures/items/fast_melon_slice.png"
+		},
+		"fast_golden_carrot": {
+			"textures": "textures/items/fast_golden_carrot.png"
+		},
+		"fast_carrot": {
+			"textures": "textures/items/fast_carrot.png"
+		},
+		"fast_poisonous_potato": {
+			"textures": "textures/items/fast_poisonous_potato.png"
+		},
+		"fast_baked_potato": {
+			"textures": "textures/items/fast_baked_potato.png"
+		},
+		"fast_bread": {
+			"textures": "textures/items/fast_bread.png"
+		},
+		"fast_cooked_salmon": {
+			"textures": "textures/items/fast_cooked_salmon.png"
+		},
+		"fast_cooked_cod": {
+			"textures": "textures/items/fast_cooked_cod.png"
+		},
+		"fast_cooked_rabbit": {
+			"textures": "textures/items/fast_cooked_rabbit.png"
+		},
+		"fast_cooked_mutton": {
+			"textures": "textures/items/fast_cooked_mutton.png"
+		},
+		"fast_cooked_chicken": {
+			"textures": "textures/items/fast_cooked_chicken.png"
+		},
+		"fast_cooked_porkchop": {
+			"textures": "textures/items/fast_cooked_porkchop.png"
+		},
+		"fast_cooked_beef": {
+			"textures": "textures/items/fast_cooked_beef.png"
+		},
+		"compressed_steak": {
+			"textures": "textures/items/compressed_steak.png"
+		},
+		"compressed_rabbit_stew": {
+			"textures": "textures/items/compressed_rabbit_stew.png"
+		}
+	}
+}

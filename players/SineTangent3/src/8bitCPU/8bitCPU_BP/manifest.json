@@ -1,0 +1,46 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "8bitCPU",
+		"description": "低性能CPU",
+		"uuid": "08a989f3-311f-4bce-957b-bb7638cdd0af",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "ce39d0a5-84d3-40d6-ab88-c79a8fdbacc0",
+			"entry": "scripts/cpu.js",
+			"version": [1, 0, 0]
+		},
+		{
+			"description": "低性能CPU",
+			"type": "data",
+			"uuid": "da85b2ea-f741-4d37-b2b1-80251c3ffc49",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "5c9dc4a5-3dd8-43c4-a6e2-f3c2805506f7",
+			"version": [1, 0, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.4.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	],
+	"capabilities": ["script_eval"],
+	"metadata": {
+		"generated_with": {
+			"blockbench_block_wizard": ["1.5.2"],
+			"blockbench_item_wizard": ["1.2.4"]
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "magistics:advanced_magistic_chestplate",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.chestplate"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "advanced_magistic_chestplate",
+			"minecraft:wearable": {
+				"slot": "slot.armor.chest",
+				"protection": 2
+			},
+			"minecraft:durability": {
+				"max_durability": 512
+			},
+			"minecraft:enchantable": {
+				"slot": "flintsteel",
+				"value": 12
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["magistics:advanced_mana_crystal"],
+						"repair_amount": 128
+					}
+				]
+			}
+		}
+	}
+}

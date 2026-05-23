@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Magistics",
+		"description": "(誇張)",
+		"uuid": "a09baf73-ddc8-4383-91fa-d992afdcd872",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "e7aa89aa-5033-4518-8e6e-9ea878debe1e",
+			"entry": "scripts/magistics.js",
+			"version": [1, 0, 0]
+		},
+		{
+			"description": "(誇張)",
+			"type": "data",
+			"uuid": "d45608b5-137e-41ba-9382-e8385c35dd0f",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "1f9040be-5497-409a-87fc-41cbe6393ea4",
+			"version": [1, 0, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	],
+	"capabilities": ["script_eval"],
+	"metadata": {
+		"generated_with": {
+			"blockbench_item_wizard": ["1.2.4"]
+		}
+	}
+}

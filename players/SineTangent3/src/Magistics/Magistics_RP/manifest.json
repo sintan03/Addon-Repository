@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Magistics",
+		"description": "(誇張)",
+		"uuid": "1f9040be-5497-409a-87fc-41cbe6393ea4",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"modules": [
+		{
+			"description": "Resources",
+			"type": "resources",
+			"uuid": "8a1bb76b-0cb0-45a7-97dd-427fde78c995",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a09baf73-ddc8-4383-91fa-d992afdcd872",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_item_wizard": ["1.2.4"]
+		}
+	}
+}

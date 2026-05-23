@@ -1,0 +1,34 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bytecpu:8bitcpu",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:custom_components": ["bytecpu:tick"],
+			"minecraft:tick": {
+				"interval_range": [1, 1],
+				"looping": true
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 100
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 2000
+			},
+			"minecraft:geometry": "geometry.8bitcpu",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "8bitcpu",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:map_color": "#0000ff"
+		}
+	}
+}

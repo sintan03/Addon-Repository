@@ -1,0 +1,29 @@
+{
+	"resource_pack_name": "blazeio",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"blazeio:iron_casing_main": {
+			"textures": "textures/blocks/casings/iron_casing_main"
+		},
+		"blazeio:fuel_generator_tier1_front": {
+			"textures": "textures/blocks/generators/fuel_generator_tier1_front"
+		},
+		"blazeio:fuel_generator_tier1_front_active": {
+			"textures": "textures/blocks/generators/fuel_generator_tier1_front_active"
+		},
+		"blazeio:macerator_tier1_front": {
+			"textures": "textures/blocks/macerators/macerator_tier1_front"
+		},
+		"blazeio:macerator_tier1_front_active": {
+			"textures": "textures/blocks/macerators/macerator_tier1_front_active"
+		},
+		"blazeio:macerator_tier1_top": {
+			"textures": "textures/blocks/macerators/macerator_tier1_top"
+		},
+		"blazeio:macerator_tier1_top_active": {
+			"textures": "textures/blocks/macerators/macerator_tier1_top_active"
+		}
+	}
+}

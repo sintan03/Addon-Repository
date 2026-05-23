@@ -1,0 +1,42 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "magistics:magistic_totem_of_undying.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            " U",
+            "ATB",
+            " E"
+        ],
+        "key": {
+            "T": {
+                "item": "minecraft:totem_of_undying"
+            },
+            "B": {
+                "item": "magistics:awakening_basic_mana_crystal"
+            },
+            "A": {
+                "item": "magistics:awakening_advanced_mana_crystal"
+            },
+            "E": {
+                "item": "magistics:awakening_elite_mana_crystal"
+            },
+            "U": {
+                "item": "magistics:awakening_ultimate_mana_crystal"
+            }
+        },
+        "unlock": [
+            {
+                "item": "magistics:basic_mana_crystal"
+            }
+        ],
+        "result": {
+            "item": "magistics:magistic_totem_of_undying",
+            "count": 1
+        }
+    }
+}

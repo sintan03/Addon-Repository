@@ -1,0 +1,33 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "bytecpu:3_bit_decoder.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            "NA",
+            "N",
+            "N"
+        ],
+        "key": {
+            "A": {  
+                "item": "bytecpu:8_bigger_and_gate"
+            },
+            "N": {
+                "item": "bytecpu:not_gate"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:copper_ingot"
+            }
+        ],
+        "result": {
+            "item": "bytecpu:3_bit_decoder",
+            "count": 1
+        }
+    }
+}

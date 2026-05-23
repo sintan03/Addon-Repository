@@ -1,0 +1,11 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "blazeio:crushed_copper_ore.recipe"
+        },
+        "tags": ["furnace", "blast_furnace"],
+        "input": "blazeio:crushed_copper_ore",
+        "output": "minecraft:copper_ingot"
+    }
+}

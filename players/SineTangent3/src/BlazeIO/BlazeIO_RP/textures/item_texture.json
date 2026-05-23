@@ -1,0 +1,324 @@
+{
+	"resource_pack_name": "blazeio",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"blazeio:connecter": {
+			"textures": "textures/items/controllers/connecter"
+		},
+
+		"blazeio:crushed_iron_ore": {
+			"textures": "textures/items/materials/crushed_iron_ore"
+		},
+		"blazeio:crushed_gold_ore": {
+			"textures": "textures/items/materials/crushed_gold_ore"
+		},
+		"blazeio:crushed_copper_ore": {
+			"textures": "textures/items/materials/crushed_copper_ore"
+		},
+
+		"blazeio:bg_color_0": {
+			"textures": "textures/items/bg_color/bg_color_0"
+		},
+		"blazeio:bg_color_1": {
+			"textures": "textures/items/bg_color/bg_color_1"
+		},
+		"blazeio:bg_color_2": {
+			"textures": "textures/items/bg_color/bg_color_2"
+		},
+		"blazeio:bg_color_3": {
+			"textures": "textures/items/bg_color/bg_color_3"
+		},
+		"blazeio:bg_color_4": {
+			"textures": "textures/items/bg_color/bg_color_4"
+		},
+		"blazeio:bg_color_5": {
+			"textures": "textures/items/bg_color/bg_color_5"
+		},
+		"blazeio:bg_color_6": {
+			"textures": "textures/items/bg_color/bg_color_6"
+		},
+		"blazeio:bg_color_7": {
+			"textures": "textures/items/bg_color/bg_color_7"
+		},
+		"blazeio:bg_color_8": {
+			"textures": "textures/items/bg_color/bg_color_8"
+		},
+		"blazeio:bg_color_9": {
+			"textures": "textures/items/bg_color/bg_color_9"
+		},
+		"blazeio:bg_color_10": {
+			"textures": "textures/items/bg_color/bg_color_10"
+		},
+		"blazeio:bg_color_11": {
+			"textures": "textures/items/bg_color/bg_color_11"
+		},
+		"blazeio:bg_color_12": {
+			"textures": "textures/items/bg_color/bg_color_12"
+		},
+		"blazeio:bg_color_13": {
+			"textures": "textures/items/bg_color/bg_color_13"
+		},
+		"blazeio:bg_color_14": {
+			"textures": "textures/items/bg_color/bg_color_14"
+		},
+		"blazeio:bg_color_15": {
+			"textures": "textures/items/bg_color/bg_color_15"
+		},
+		"blazeio:bg_color_16": {
+			"textures": "textures/items/bg_color/bg_color_16"
+		},
+		"blazeio:bg_color_17": {
+			"textures": "textures/items/bg_color/bg_color_17"
+		},
+		"blazeio:bg_color_18": {
+			"textures": "textures/items/bg_color/bg_color_18"
+		},
+		"blazeio:bg_color_19": {
+			"textures": "textures/items/bg_color/bg_color_19"
+		},
+		"blazeio:bg_color_20": {
+			"textures": "textures/items/bg_color/bg_color_20"
+		},
+		"blazeio:bg_color_21": {
+			"textures": "textures/items/bg_color/bg_color_21"
+		},
+		"blazeio:bg_color_22": {
+			"textures": "textures/items/bg_color/bg_color_22"
+		},
+		"blazeio:bg_color_23": {
+			"textures": "textures/items/bg_color/bg_color_23"
+		},
+		"blazeio:bg_color_24": {
+			"textures": "textures/items/bg_color/bg_color_24"
+		},
+		"blazeio:bg_color_25": {
+			"textures": "textures/items/bg_color/bg_color_25"
+		},
+		"blazeio:bg_color_26": {
+			"textures": "textures/items/bg_color/bg_color_26"
+		},
+		"blazeio:bg_color_27": {
+			"textures": "textures/items/bg_color/bg_color_27"
+		},
+		"blazeio:bg_color_28": {
+			"textures": "textures/items/bg_color/bg_color_28"
+		},
+		"blazeio:bg_color_29": {
+			"textures": "textures/items/bg_color/bg_color_29"
+		},
+		"blazeio:bg_color_30": {
+			"textures": "textures/items/bg_color/bg_color_30"
+		},
+		"blazeio:bg_color_31": {
+			"textures": "textures/items/bg_color/bg_color_31"
+		},
+		"blazeio:bg_color_32": {
+			"textures": "textures/items/bg_color/bg_color_32"
+		},
+		
+		"blazeio:bg_energy_dis_0": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_0"
+		},
+		"blazeio:bg_energy_dis_1": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_1"
+		},
+		"blazeio:bg_energy_dis_2": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_2"
+		},
+		"blazeio:bg_energy_dis_3": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_3"
+		},
+		"blazeio:bg_energy_dis_4": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_4"
+		},
+		"blazeio:bg_energy_dis_5": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_5"
+		},
+		"blazeio:bg_energy_dis_6": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_6"
+		},
+		"blazeio:bg_energy_dis_7": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_7"
+		},
+		"blazeio:bg_energy_dis_8": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_8"
+		},
+		"blazeio:bg_energy_dis_9": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_9"
+		},
+		"blazeio:bg_energy_dis_10": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_10"
+		},
+		"blazeio:bg_energy_dis_11": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_11"
+		},
+		"blazeio:bg_energy_dis_12": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_12"
+		},
+		"blazeio:bg_energy_dis_13": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_13"
+		},
+		"blazeio:bg_energy_dis_14": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_14"
+		},
+		"blazeio:bg_energy_dis_15": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_15"
+		},
+		"blazeio:bg_energy_dis_16": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_16"
+		},
+		"blazeio:bg_energy_dis_17": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_17"
+		},
+		"blazeio:bg_energy_dis_18": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_18"
+		},
+		"blazeio:bg_energy_dis_19": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_19"
+		},
+		"blazeio:bg_energy_dis_20": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_20"
+		},
+		"blazeio:bg_energy_dis_21": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_21"
+		},
+		"blazeio:bg_energy_dis_22": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_22"
+		},
+		"blazeio:bg_energy_dis_23": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_23"
+		},
+		"blazeio:bg_energy_dis_24": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_24"
+		},
+		"blazeio:bg_energy_dis_25": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_25"
+		},
+		"blazeio:bg_energy_dis_26": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_26"
+		},
+		"blazeio:bg_energy_dis_27": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_27"
+		},
+		"blazeio:bg_energy_dis_28": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_28"
+		},
+		"blazeio:bg_energy_dis_29": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_29"
+		},
+		"blazeio:bg_energy_dis_30": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_30"
+		},
+		"blazeio:bg_energy_dis_31": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_31"
+		},
+		"blazeio:bg_energy_dis_32": {
+			"textures": "textures/items/bg_energy_dis/bg_energy_dis_32"
+		},
+
+		"blazeio:rarr_0": {
+			"textures": "textures/items/rarr/0"
+		},
+		"blazeio:rarr_1": {
+			"textures": "textures/items/rarr/1"
+		},
+		"blazeio:rarr_2": {
+			"textures": "textures/items/rarr/2"
+		},
+		"blazeio:rarr_3": {
+			"textures": "textures/items/rarr/3"
+		},
+		"blazeio:rarr_4": {
+			"textures": "textures/items/rarr/4"
+		},
+		"blazeio:rarr_5": {
+			"textures": "textures/items/rarr/5"
+		},
+		"blazeio:rarr_6": {
+			"textures": "textures/items/rarr/6"
+		},
+		"blazeio:rarr_7": {
+			"textures": "textures/items/rarr/7"
+		},
+		"blazeio:rarr_8": {
+			"textures": "textures/items/rarr/8"
+		},
+		"blazeio:rarr_9": {
+			"textures": "textures/items/rarr/9"
+		},
+		"blazeio:rarr_10": {
+			"textures": "textures/items/rarr/10"
+		},
+		"blazeio:rarr_11": {
+			"textures": "textures/items/rarr/11"
+		},
+		"blazeio:rarr_12": {
+			"textures": "textures/items/rarr/12"
+		},
+		"blazeio:rarr_13": {
+			"textures": "textures/items/rarr/13"
+		},
+		"blazeio:rarr_14": {
+			"textures": "textures/items/rarr/14"
+		},
+		"blazeio:rarr_15": {
+			"textures": "textures/items/rarr/15"
+		},
+		"blazeio:rarr_16": {
+			"textures": "textures/items/rarr/16"
+		},
+		"blazeio:rarr_17": {
+			"textures": "textures/items/rarr/17"
+		},
+		"blazeio:rarr_18": {
+			"textures": "textures/items/rarr/18"
+		},
+		"blazeio:rarr_19": {
+			"textures": "textures/items/rarr/19"
+		},
+		"blazeio:rarr_20": {
+			"textures": "textures/items/rarr/20"
+		},
+		"blazeio:rarr_21": {
+			"textures": "textures/items/rarr/21"
+		},
+		"blazeio:rarr_22": {
+			"textures": "textures/items/rarr/22"
+		},
+
+		"blazeio:flame_0": {
+			"textures": "textures/items/flame/flame_0"
+		},
+		"blazeio:flame_1": {
+			"textures": "textures/items/flame/flame_1"
+		},
+		"blazeio:flame_2": {
+			"textures": "textures/items/flame/flame_2"
+		},
+		"blazeio:flame_3": {
+			"textures": "textures/items/flame/flame_3"
+		},
+		"blazeio:flame_4": {
+			"textures": "textures/items/flame/flame_4"
+		},
+		"blazeio:flame_5": {
+			"textures": "textures/items/flame/flame_5"
+		},
+		"blazeio:flame_6": {
+			"textures": "textures/items/flame/flame_6"
+		},
+		"blazeio:flame_7": {
+			"textures": "textures/items/flame/flame_7"
+		},
+		"blazeio:flame_8": {
+			"textures": "textures/items/flame/flame_8"
+		},
+		"blazeio:flame_9": {
+			"textures": "textures/items/flame/flame_9"
+		},
+
+		"blazeio:bg_energy": {
+			"textures": "textures/items/bg_others/bg_energy"
+		}
+	}
+}

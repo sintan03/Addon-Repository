@@ -1,0 +1,11 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "blazeio:crushed_iron_ore.recipe"
+        },
+        "tags": ["furnace", "blast_furnace"],
+        "input": "blazeio:crushed_iron_ore",
+        "output": "minecraft:iron_ingot"
+    }
+}

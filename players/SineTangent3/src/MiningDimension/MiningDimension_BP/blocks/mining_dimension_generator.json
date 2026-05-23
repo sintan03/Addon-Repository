@@ -1,0 +1,29 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mining:mining_dimension_generator",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:custom_components": [
+				"mining:click"
+			],
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "mining:mining_dimension_generator"
+				}
+			},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 100000
+            },
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 100000
+            }
+		}
+	}
+}

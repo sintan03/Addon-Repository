@@ -1,0 +1,28 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.parry_shield",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 7,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0, 0, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{"origin": [-6, 0, -0.5], "size": [12, 22, 1], "uv": [0, 0]},
+						{"origin": [-1, 8, 1.5], "size": [2, 6, 1], "uv": [0, 23]},
+						{"origin": [-1, 8, 0.5], "size": [2, 1, 1], "uv": [6, 25]},
+						{"origin": [-1, 13, 0.5], "size": [2, 1, 1], "uv": [6, 23]}
+					]
+				}
+			]
+		}
+	]
+}

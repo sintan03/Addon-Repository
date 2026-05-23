@@ -1,0 +1,11 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "magistics:advanced_mana_crystal.recipe"
+        },
+        "tags": ["furnace", "blast_furnace"],
+        "input": "minecraft:redstone_block",
+        "output": "magistics:advanced_mana_crystal"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "bytecpu:full_adder.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            "X",
+            "AX",
+            " AO"
+        ],
+        "key": {
+            "X": {
+                "item": "bytecpu:xor_gate"
+            },
+            "A": {
+                "item": "bytecpu:and_gate"
+            },
+            "O": {
+                "item": "bytecpu:or_gate"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:copper_ingot"
+            }
+        ],
+        "result": {
+            "item": "bytecpu:full_adder",
+            "count": 1
+        }
+    }
+}

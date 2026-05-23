@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "magistics:basic_magistic_helmet.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "magistics:awakening_basic_mana_crystal"
+            },
+            {
+                "item": "minecraft:iron_helmet"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "magistics:basic_mana_crystal"
+            }
+        ],
+        "result": {
+            "item": "magistics:basic_magistic_helmet",
+            "count": 1
+        }
+    }
+}

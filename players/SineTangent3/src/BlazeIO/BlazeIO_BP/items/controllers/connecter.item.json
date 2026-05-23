@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "blazeio:connecter",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "blazeio:connecter"
+        }
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:max_stack_size": 1,
+      "minecraft:interact_button": "Use Item"
+    }
+  }
+}

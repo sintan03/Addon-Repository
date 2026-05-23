@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.parry_lance.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [154.2824, 59.2726, -59.0548],
+					"position": [1, 24, 11]
+				}
+			}
+		},
+		"animation.parry_lance.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [90, 0, 0],
+					"position": [0.5, 22.5, -0.5]
+				}
+			}
+		}
+	}
+}

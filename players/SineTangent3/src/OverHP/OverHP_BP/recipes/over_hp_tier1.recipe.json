@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "overhp:over_hp_tier1.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": true,
+        "priority": 1,
+        "pattern": [
+            "YMY",
+            "MHM",
+            "YMY"
+        ],
+        "key": {
+            "Y": {
+                "item": "minecraft:red_dye"
+            },
+            "H": {
+                "item": "minecraft:apple"
+            },
+            "M": {
+                "item": "minecraft:iron_ingot"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:cobblestone"
+            }
+        ],
+        "result": {
+            "item": "overhp:over_hp_tier1",
+            "count": 1
+        }
+    }
+}

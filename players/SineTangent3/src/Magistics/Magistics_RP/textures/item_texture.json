@@ -1,0 +1,91 @@
+{
+	"texture_data": {
+		"magistic_totem_of_undying": {
+			"textures": "textures/items/magistic_totem_of_undying.png"
+		},
+		"ultimate_magistic_boots": {
+			"textures": "textures/items/ultimate_magistic_boots.png"
+		},
+		"elite_magistic_boots": {
+			"textures": "textures/items/elite_magistic_boots.png"
+		},
+		"advanced_magistic_boots": {
+			"textures": "textures/items/advanced_magistic_boots.png"
+		},
+		"ultimate_magistic_leggings": {
+			"textures": "textures/items/ultimate_magistic_leggings.png"
+		},
+		"elite_magistic_leggings": {
+			"textures": "textures/items/elite_magistic_leggings.png"
+		},
+		"advanced_magistic_leggings": {
+			"textures": "textures/items/advanced_magistic_leggings.png"
+		},
+		"ultimate_magistic_chestplate": {
+			"textures": "textures/items/ultimate_magistic_chestplate.png"
+		},
+		"elite_magistic_chestplate": {
+			"textures": "textures/items/elite_magistic_chestplate.png"
+		},
+		"advanced_magistic_chestplate": {
+			"textures": "textures/items/advanced_magistic_chestplate.png"
+		},
+		"ultimate_magistic_helmet": {
+			"textures": "textures/items/ultimate_magistic_helmet.png"
+		},
+		"elite_magistic_helmet": {
+			"textures": "textures/items/elite_magistic_helmet.png"
+		},
+		"advanced_magistic_helmet": {
+			"textures": "textures/items/advanced_magistic_helmet.png"
+		},
+		"basic_magistic_boots": {
+			"textures": "textures/items/basic_magistic_boots.png"
+		},
+		"basic_magistic_leggings": {
+			"textures": "textures/items/basic_magistic_leggings.png"
+		},
+		"basic_magistic_chestplate": {
+			"textures": "textures/items/basic_magistic_chestplate.png"
+		},
+		"basic_magistic_helmet": {
+			"textures": "textures/items/basic_magistic_helmet.png"
+		},
+		"ultimate_magistic_wand": {
+			"textures": "textures/items/ultimate_magistic_wand.png"
+		},
+		"elite_magistic_wand": {
+			"textures": "textures/items/elite_magistic_wand.png"
+		},
+		"advanced_magistic_wand": {
+			"textures": "textures/items/advanced_magistic_wand.png"
+		},
+		"basic_magistic_wand": {
+			"textures": "textures/items/basic_magistic_wand.png"
+		},
+		"awakening_ultimate_mana_crystal": {
+			"textures": "textures/items/awakening_ultimate_mana_crystal.png"
+		},
+		"awakening_elite_mana_crystal": {
+			"textures": "textures/items/awakening_elite_mana_crystal.png"
+		},
+		"awakening_advanced_mana_crystal": {
+			"textures": "textures/items/awakening_advanced_mana_crystal.png"
+		},
+		"awakening_basic_mana_crystal": {
+			"textures": "textures/items/awakening_basic_mana_crystal.png"
+		},
+		"ultimate_mana_crystal": {
+			"textures": "textures/items/ultimate_mana_crystal.png"
+		},
+		"elite_mana_crystal": {
+			"textures": "textures/items/elite_mana_crystal.png"
+		},
+		"advanced_mana_crystal": {
+			"textures": "textures/items/advanced_mana_crystal.png"
+		},
+		"basic_mana_crystal": {
+			"textures": "textures/items/basic_mana_crystal.png"
+		}
+	}
+}

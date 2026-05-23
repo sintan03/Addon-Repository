@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "parry:parry_long_sword_yellow",
+			"render_controllers": ["controller.render.item_default"],
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/entity/attachable/parry_long_sword_yellow",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.parry_long_sword_yellow"
+			},
+			"animations": {
+				"first_person_hold": "animation.parry_long_sword_yellow.first_person_hold",
+				"third_person_hold": "animation.parry_long_sword_yellow.third_person_hold"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"first_person_hold": "c.is_first_person"
+					},
+					{
+						"third_person_hold": "!c.is_first_person"
+					}
+				]
+			}
+		}
+	}
+}

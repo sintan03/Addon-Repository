@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "overhp:over_hp_tier3.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": true,
+        "priority": 1,
+        "pattern": [
+            "YMY",
+            "MHM",
+            "YMY"
+        ],
+        "key": {
+            "Y": {
+                "item": "minecraft:yellow_dye"
+            },
+            "H": {
+                "item": "overhp:over_hp_tier2"
+            },
+            "M": {
+                "item": "minecraft:shulker_shell"
+            }
+        },
+        "unlock": [
+            {
+                "item": "overhp:over_hp_tier2"
+            }
+        ],
+        "result": {
+            "item": "overhp:over_hp_tier3",
+            "count": 1
+        }
+    }
+}

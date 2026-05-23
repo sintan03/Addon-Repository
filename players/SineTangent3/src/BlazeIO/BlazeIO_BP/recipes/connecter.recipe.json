@@ -1,0 +1,33 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "blazeio:connecter.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            "I",
+            "C",
+            "C"
+        ],
+        "key": {
+            "I": {
+                "item": "minecraft:iron_ingot"
+            },
+            "C": {
+                "item": "minecraft:copper_ingot"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:iron_ingot"
+            }
+        ],
+        "result": {
+            "item": "blazeio:connecter",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,8 @@
+pack.name=パリィアドオン
+pack.description=パリィ！パリィ！パリィ！パリィ！
+item.parry:parry_shield=パリィシールド
+item.parry:parry_lance=ランス
+item.parry:parry_long_sword=太刀
+item.parry:parry_long_sword_white=§l太刀§r§f
+item.parry:parry_long_sword_yellow=§l§e太刀§r§f
+item.parry:parry_long_sword_red=§l§c太刀§r§f

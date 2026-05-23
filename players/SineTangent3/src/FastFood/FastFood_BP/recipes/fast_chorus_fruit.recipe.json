@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "fastfood:fast_chorus_fruit.recipe"
+        },
+
+        "tags": [ "crafting_fast" ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "item": "minecraft:chorus_fruit",
+                "count": 1
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:chorus_fruit"
+            }
+        ],
+        "result": {
+            "item": "fastfood:fast_chorus_fruit",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "magistics:advanced_magistic_boots",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.boots"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "advanced_magistic_boots",
+			"minecraft:wearable": {
+				"slot": "slot.armor.feet",
+				"protection": 2
+			},
+			"minecraft:durability": {
+				"max_durability": 512
+			},
+			"minecraft:enchantable": {
+				"slot": "flintsteel",
+				"value": 12
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["magistics:advanced_mana_crystal"],
+						"repair_amount": 128
+					}
+				]
+			}
+		}
+	}
+}

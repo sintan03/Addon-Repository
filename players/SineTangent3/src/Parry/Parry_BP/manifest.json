@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"uuid": "d167097a-d528-4f2b-be78-821a8ffc7b5a",
+		"version": [1, 0, 1],
+		"min_engine_version": [1, 21, 101]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "2c6827b7-a343-47b1-b499-444237c14312",
+			"entry": "scripts/parry.js",
+			"version": [1, 0, 1]
+		},
+		{
+			"description": "pack.description",
+			"type": "data",
+			"uuid": "00f6ef08-0c62-4dda-8901-1346f7821e30",
+			"version": [1, 0, 1]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "f6744b25-1e9e-4824-872e-c671e42135f3",
+			"version": [1, 0, 1]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.6.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	],
+	"capabilities": ["script_eval"],
+	"metadata": {
+		"generated_with": {
+			"blockbench_item_wizard": ["1.2.4"]
+		}
+	}
+}

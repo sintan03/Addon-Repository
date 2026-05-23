@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "fastfood:fast_cooked_chicken.recipe"
+        },
+
+        "tags": [ "crafting_fast" ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "item": "minecraft:cooked_chicken",
+                "count": 1
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:cooked_chicken"
+            }
+        ],
+        "result": {
+            "item": "fastfood:fast_cooked_chicken",
+            "count": 1
+        }
+    }
+}

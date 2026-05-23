@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "overhp:over_hp_tier2.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": true,
+        "priority": 1,
+        "pattern": [
+            "YMY",
+            "MHM",
+            "YMY"
+        ],
+        "key": {
+            "Y": {
+                "item": "minecraft:orange_dye"
+            },
+            "H": {
+                "item": "overhp:over_hp_tier1"
+            },
+            "M": {
+                "item": "minecraft:blaze_powder"
+            }
+        },
+        "unlock": [
+            {
+                "item": "overhp:over_hp_tier1"
+            }
+        ],
+        "result": {
+            "item": "overhp:over_hp_tier2",
+            "count": 1
+        }
+    }
+}

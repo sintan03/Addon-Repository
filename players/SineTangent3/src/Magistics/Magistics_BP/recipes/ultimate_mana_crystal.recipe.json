@@ -1,0 +1,11 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "magistics:ultimate_mana_crystal.recipe"
+        },
+        "tags": ["furnace", "blast_furnace"],
+        "input": "minecraft:emerald",
+        "output": "magistics:ultimate_mana_crystal"
+    }
+}

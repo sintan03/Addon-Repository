@@ -1,0 +1,46 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "ファストフード",
+		"description": "食事時間を減らそう",
+		"uuid": "59c041f8-6248-48d4-8aa7-d5e5e071b40c",
+		"version": [1, 0, 1],
+		"min_engine_version": [1, 20, 0]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "3724643a-623f-462f-825a-826003e1eef9",
+			"entry": "scripts/food.js",
+			"version": [1, 0, 1]
+		},
+		{
+			"description": "食事時間を減らそう",
+			"type": "data",
+			"uuid": "211dfbc7-f38a-41ac-902b-6a80bd4df121",
+			"version": [1, 0, 1]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "3565ff89-170e-46fd-91cc-146da8339a20",
+			"version": [1, 0, 1]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.4.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	],
+	"capabilities": ["script_eval"],
+	"metadata": {
+		"generated_with": {
+			"blockbench_item_wizard": ["1.2.4"],
+			"blockbench_block_wizard": ["1.6.1"]
+		}
+	}
+}

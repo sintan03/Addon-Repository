@@ -1,0 +1,24 @@
+{
+	"texture_data": {
+		"parry_long_sword": {
+			"textures": "textures/items/parry_long_sword.png"
+		},
+		"parry_long_sword_white": {
+			"textures": "textures/items/parry_long_sword_white.png"
+		},
+		"parry_long_sword_yellow": {
+			"textures": "textures/items/parry_long_sword_yellow.png"
+		},
+		"parry_long_sword_red": {
+			"textures": "textures/items/parry_long_sword_red.png"
+		},
+		"parry_lance": {
+			"textures": "textures/items/parry_lance.png"
+		},
+		"parry_shield": {
+			"textures": "textures/items/parry_shield.png"
+		}
+	},
+	"resource_pack_name": "parry",
+	"texture_name": "atlas.items"
+}

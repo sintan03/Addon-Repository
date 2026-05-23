@@ -1,0 +1,33 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sineboss:crushers_axe.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": true,
+        "priority": 1,
+        "pattern": [
+            "CC",
+            "C#",
+            " #"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:stick"
+            },
+            "C": {
+                "item": "sineboss:crushers_crystal"
+            }
+        },
+        "unlock": [
+            {
+                "item": "sineboss:crushers_crystal"
+            }
+        ],
+        "result": {
+            "item": "sineboss:crushers_axe",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"8bitcpu_off": {
+			"textures": "textures/blocks/8bitcpu_off"
+		},
+		"8bitcpu": {
+			"textures": "textures/blocks/8bitcpu"
+		}
+	}
+}

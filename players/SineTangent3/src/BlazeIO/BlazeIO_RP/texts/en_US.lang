@@ -1,0 +1,16 @@
+pack.name=§l§gBlazeIO§r§f
+pack.description=Industry Addon.
+
+item.blazeio:connecter=Connecter
+item.blazeio:crushed_iron_ore=Crushed Raw Iron
+item.blazeio:crushed_gold_ore=Crushed Raw Gold
+item.blazeio:crushed_copper_ore=Crushed Raw Copper
+
+tile.blazeio:fuel_generator_tier1.name=Fuel Generator Tier1
+ui.blazeio:fuel_generator_tier1.title=Fuel Generator Tier1
+tile.blazeio:macerator_tier1.name=Macerator Tier1
+ui.blazeio:macerator_tier1.title=Macerator Tier1
+
+item.blazeio:bg_energy=Energy
+
+blazeio:itemGroup.name.generators=Generators

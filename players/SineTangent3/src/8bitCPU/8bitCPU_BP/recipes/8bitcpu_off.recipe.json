@@ -1,0 +1,48 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "bytecpu:8bitcpu_off.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            "PDM",
+            "ADL",
+            "AIC"
+        ],
+        "key": {
+            "D": {  
+                "item": "bytecpu:3_bit_decoder"
+            },
+            "P": {  
+                "item": "bytecpu:counter"
+            },
+            "I": {  
+                "item": "bytecpu:instruction_decoder"
+            },
+            "M": {  
+                "item": "bytecpu:6_byte_memory"
+            },
+            "L": {  
+                "item": "bytecpu:alu"
+            },
+            "C": {
+                "item": "bytecpu:conditions"
+            },
+            "A": {  
+                "item": "bytecpu:byte_and"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:copper_ingot"
+            }
+        ],
+        "result": {
+            "item": "bytecpu:8bitcpu_off",
+            "count": 1
+        }
+    }
+}

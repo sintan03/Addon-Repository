@@ -1,0 +1,54 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "sineboss:true_crusher_summoner.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "minecraft:diamond"
+            },
+            {
+                "item": "minecraft:netherite_scrap"
+            },
+            {
+                "item": "minecraft:diamond"
+            },
+            {
+                "item": "minecraft:netherite_scrap"
+            },
+            {
+                "item": "sineboss:crushers_crystal"
+            },
+            {
+                "item": "minecraft:netherite_scrap"
+            },
+            {
+                "item": "minecraft:diamond"
+            },
+            {
+                "item": "minecraft:netherite_scrap"
+            },
+            {
+                "item": "minecraft:diamond"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "sineboss:crushers_crystal"
+            },
+            {
+                "item": "minecraft:cobblestone"
+            },
+            {
+                "item": "minecraft:stick"
+            }
+        ],
+        "result": {
+            "item": "sineboss:true_crusher_summoner",
+            "count": 1
+        }
+    }
+}

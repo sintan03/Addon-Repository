@@ -1,0 +1,12 @@
+pack.description=他の体力を増やすアドオンと共存可能
+item.overhp:over_hp_tier1=Over HP Tier1\n§75回まで使用可能
+item.overhp:over_hp_tier2=Over HP Tier2\n§75回まで使用可能
+item.overhp:over_hp_tier3=Over HP Tier3\n§75回まで使用可能
+item.overhp:over_hp_reloader=Over HP Reloader\n§7右クリックでHPの再計算\nシフト右クリックで現在の使用回数を表示
+
+message.overhp.reloading=§eHPの再計算中
+message.overhp.reloadend=§eHPの再計算が終了しました
+message.overhp.count=§e使用回数
+message.overhp.use=§eHPが増加しました
+message.overhp.overuse=§cまだ使用可能でないか、すでに上限まで使用済みです
+message.overhp.checking=§cHPの再計算中です

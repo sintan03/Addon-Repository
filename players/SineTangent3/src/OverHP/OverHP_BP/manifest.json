@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Over HP Addon",
+		"description": "pack.description",
+		"uuid": "129a19ab-9a76-419b-a4f4-79e2533b6e91",
+		"version": [1, 0, 1],
+		"min_engine_version": [1, 21, 101]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "a0e8288d-f842-4301-9ae1-66cb81e6154c",
+			"entry": "scripts/hp.js",
+			"version": [1, 0, 1]
+		},
+		{
+			"description": "pack.description",
+			"type": "data",
+			"uuid": "6e8485f0-6e17-42d3-bbdc-a1c975ac4a1d",
+			"version": [1, 0, 1]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "dff6dbea-2a56-4f96-ba89-42687c561422",
+			"version": [1, 0, 1]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.6.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	],
+	"capabilities": ["script_eval"],
+	"metadata": {
+		"generated_with": {
+			"blockbench_item_wizard": ["1.2.4"]
+		}
+	}
+}

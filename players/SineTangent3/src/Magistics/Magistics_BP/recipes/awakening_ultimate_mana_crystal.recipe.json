@@ -1,0 +1,33 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "magistics:awakening_ultimate_mana_crystal.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": true,
+        "priority": 1,
+        "pattern": [
+            "MMM",
+            "MBM",
+            "MMM"
+        ],
+        "key": {
+            "M": {
+                "item": "magistics:ultimate_mana_crystal"
+            },
+            "B": {
+                "item": "minecraft:nether_star"
+            }
+        },
+        "unlock": [
+            {
+                "item": "magistics:awakening_elite_mana_crystal"
+            }
+        ],
+        "result": {
+            "item": "magistics:awakening_ultimate_mana_crystal",
+            "count": 1
+        }
+    }
+}
