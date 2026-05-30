@@ -1,4 +1,6 @@
 {
+	"resource_pack_name": "8bitcpu",
+	"texture_name": "atlas.items",
 	"texture_data": {
 		"64_byte_register": {
 			"textures": "textures/items/64_byte_register.png"

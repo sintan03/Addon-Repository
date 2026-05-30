@@ -8,20 +8,21 @@
 			}
 		},
 		"components": {
-			"minecraft:collision_box": true,
-			"minecraft:selection_box": true,
 			"minecraft:custom_components": ["bytecpu:tick"],
 			"minecraft:tick": {
 				"interval_range": [1, 1],
 				"looping": true
 			},
 			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 100
+				"seconds_to_destroy": 1000000
 			},
+			"tag:minecraft:is_pickaxe_item_destructible": {},
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 2000
 			},
-			"minecraft:geometry": "geometry.8bitcpu",
+			"minecraft:geometry": {
+				"identifier": "minecraft:geometry.full_block"
+			},
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "8bitcpu",

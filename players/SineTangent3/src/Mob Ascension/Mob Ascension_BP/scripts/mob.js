@@ -431,64 +431,69 @@ system.afterEvents.scriptEventReceive.subscribe(ev => {
     };
 });
 
-world.afterEvents.itemCompleteUse.subscribe(ev => {
-    const { source } = ev;
-    const itemStack = source.getComponent(`minecraft:equippable`).getEquipment(`Mainhand`);
-    const itemId = itemStack?.typeId;
-    switch (itemId) {
-        case `minecraft:crossbow`:
-            let lores = itemStack.getLore();
-            lores.push(`§r§fCharged§r§f`);
-            itemStack.setLore(lores);
-            source.getComponent(`minecraft:equippable`).setEquipment(`Mainhand`, itemStack);
-    };
+let bowInterval = [];
+const rotateMulti = 2;
+
+world.afterEvents.itemStartUse.subscribe(ev => {
+    const { source, itemStack } = ev;
+    if (itemStack.typeId !== `minecraft:bow`) return;
+    const intervalId = system.runInterval(() => {
+        const dimension = source.dimension;
+        const location = source.location;
+        const direction = source.getViewDirection();
+        const rotation = source.getRotation();
+        dimension.playSound(`random.bow`, location);
+        for (let i = 0; i < 10; i++) {
+            const randoms = { rotation: Math.random() * 360, scatter: Math.random() };
+            const newDirection = { x: direction.x * -0.5, y: direction.y * -0.5, z: direction.z * -0.5 }; const right = {
+                x: direction.z,
+                y: 0,
+                z: -direction.x
+            };
+            const up = {
+                x: -direction.x * direction.y,
+                y: 1 - Math.abs(direction.y),
+                z: -direction.z * direction.y
+            };
+            const rx = (Math.random() - 0.5) * rotateMulti;
+            const ry = (Math.random() - 0.5) * rotateMulti;
+            const arrowDirection = {
+                x:
+                    direction.x * 5 +
+                    right.x * rx +
+                    up.x * ry,
+                y:
+                    direction.y * 5 +
+                    right.y * rx +
+                    up.y * ry,
+                z:
+                    direction.z * 5 +
+                    right.z * rx +
+                    up.z * ry
+            };
+            const newLocation = { x: location.x + newDirection.x, y: location.y + newDirection.y + 1.65, z: location.z + newDirection.z };
+            const entity = dimension.spawnEntity(`minecraft:arrow`, newLocation);
+            entity.setRotation({ x: -1 * rotation.x, y: -1 * rotation.y });
+            entity.applyImpulse(arrowDirection);
+        };
+    });
+    bowInterval.push({ id: intervalId, name: source.name });
+});
+
+world.afterEvents.itemStopUse.subscribe(ev => {
+    const { source, itemStack } = ev;
+    if (itemStack.typeId !== `minecraft:bow`) return;
+    const interval = bowInterval.find(f => f.name === source.name);
+    if (!interval) return;
+    system.clearRun(interval.id);
+    bowInterval = bowInterval.filter(f => f.id !== interval.id);
 });
 
 world.afterEvents.itemReleaseUse.subscribe(ev => {
     const { source, itemStack } = ev;
-    const itemId = itemStack.typeId;
-    switch (itemId) {
-        case `minecraft:bow`:
-            const dimension = source.dimension;
-            const location = source.location;
-            const newLocation = { x: location.x, y: location.y + 1.5, z: location.z };
-            const arrows = dimension.getEntities({ type: `minecraft:arrow`, location: newLocation, maxDistance: 8 });
-            for (const arrow of arrows) {
-                const velocity = arrow.getVelocity();
-                const multi = 100;
-                const newVelocity = { x: velocity.x * multi, y: velocity.y * multi, z: velocity.z * multi };
-                arrow.applyImpulse(newVelocity);
-            };
-    };
-});
-
-world.afterEvents.itemStartUse.subscribe(ev => {
-});
-
-world.afterEvents.itemStopUse.subscribe(ev => {
-});
-
-world.afterEvents.itemUse.subscribe(ev => {
-    const { source } = ev;
-    const itemStack = source.getComponent(`minecraft:equippable`).getEquipment(`Mainhand`);
-    const itemId = itemStack?.typeId;
-    switch (itemId) {
-        case `minecraft:crossbow`:
-            let lores = itemStack.getLore();
-            if (lores.find(f => f === `§r§fCharged§r§f`)) {
-                lores = lores.filter(f => f !== `§r§fCharged§r§f`);
-                itemStack.setLore(lores);
-                source.getComponent(`minecraft:equippable`).setEquipment(`Mainhand`, itemStack);
-                const dimension = source.dimension;
-                const location = source.location;
-                const newLocation = { x: location.x, y: location.y + 1.5, z: location.z };
-                const arrows = dimension.getEntities({ type: `minecraft:arrow`, location: newLocation, maxDistance: 8 });
-                for (const arrow of arrows) {
-                    const velocity = arrow.getVelocity();
-                    const multi = 100;
-                    const newVelocity = { x: velocity.x * multi, y: velocity.y * multi, z: velocity.z * multi };
-                    arrow.applyImpulse(newVelocity);
-                };
-            };
-    };
+    if (itemStack.typeId !== `minecraft:bow`) return;
+    const interval = bowInterval.find(f => f.name === source.name);
+    if (!interval) return;
+    system.clearRun(interval.id);
+    bowInterval = bowInterval.filter(f => f.id !== interval.id);
 });

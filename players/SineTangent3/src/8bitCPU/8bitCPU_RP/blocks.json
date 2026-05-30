@@ -1,9 +1,0 @@
-{
-	"format_version": "1.21.0",
-	"8bitcpu_off": {
-		"sound": "metal"
-	},
-	"8bitcpu": {
-		"sound": "metal"
-	}
-}
