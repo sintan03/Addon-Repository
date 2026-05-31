@@ -7,7 +7,7 @@
     "version": [
       1,
       0,
-      1
+      2
     ],
     "min_engine_version": [
       1,
@@ -17,13 +17,13 @@
   },
   "modules": [
     {
-      "description": "Resources",
+      "description": "選択式極滅",
       "type": "resources",
       "uuid": "628d8c31-d5f9-4dc6-ad66-081aac7fcd78",
       "version": [
         1,
         0,
-        1
+        2
       ]
     }
   ],
@@ -33,7 +33,7 @@
       "version": [
         1,
         0,
-        1
+        2
       ]
     }
   ]

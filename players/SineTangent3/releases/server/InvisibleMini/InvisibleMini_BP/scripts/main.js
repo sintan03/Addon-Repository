@@ -41,7 +41,7 @@ world.afterEvents.itemUse.subscribe(ev => {
                         if (!toggle) continue;
                         newDp.push(entitiesData[i].id);
                     };
-                    for (const undentity of dp.filter(f => entitiesData.filter(l => l.id !== f))) {
+                    for (const undentity of dp.filter(f => !entitiesData.some(l => l.id === f))) {
                         newDp.push(undentity);
                     };
                     source.setDynamicProperty(`invisiblemini:data`, JSON.stringify(newDp));
