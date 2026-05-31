@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Legend of the Miner",
+    "description": "The best description",
+    "uuid": "fa4d7ac8-5991-497a-b4be-bd3b1fc6d5e4",
+    "version": [1, 0, 0],
+    "min_engine_version": [
+      1,
+      21,
+      101
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "6be61958-9169-487a-8e01-30e74df45537",
+      "entry": "scripts/lotm.js",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "The best description",
+      "type": "data",
+      "uuid": "e270611d-3f29-4d39-a725-03e68a557338",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "987b61c4-27db-4bb6-8911-03745f0b3738",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "3.0.0-alpha"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "3.0.0-alpha"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}
