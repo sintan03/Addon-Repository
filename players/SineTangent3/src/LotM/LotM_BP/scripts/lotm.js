@@ -1,160 +1,21 @@
 import { world, system } from "@minecraft/server";
 import { CustomForm, Observable } from "@minecraft/server-ui";
 
+import { defaultDp, itemData, itemEffects } from "./data.js";
+
 const formTabLists = [
     `form.lotm.main.status`,
     `form.lotm.main.shop`,
     `form.lotm.main.description`
 ];
 
-const defaultDp = {
-    resource: {
-        block: 0,
-        crystal: 0,
-        platinum: 0,
-        indium: 0,
-        cookie: 0
-    },
-    item: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-};
+const playerState = new Map();
 
-const itemData = [
-    {
-        // 採掘速度
-        type: `block`,
-        base: 64,
-        multi: 16
-    },
-    {
-        // 獲得量x2
-        type: `block`,
-        base: 256,
-        multi: 8
-    },
-    {
-        // block+10
-        type: `block`,
-        base: 1024,
-        multi: 4
-    },
-    {
-        // 確率+10%
-        type: `crystal`,
-        base: 1,
-        multi: 3
-    },
-    {
-        // block自動+10%
-        type: `crystal`,
-        base: 64,
-        multi: 8
-    },
-    {
-        // 獲得量x2
-        type: `crystal`,
-        base: 256,
-        multi: 16
-    },
-    {
-        // crystal+10
-        type: `crystal`,
-        base: 1024,
-        multi: 4
-    },
-    {
-        // 確率+1000%
-        type: `platinum`,
-        base: 1,
-        multi: 4
-    },
-    {
-        // crystal自動+10%
-        type: `platinum`,
-        base: 64,
-        multi: 8
-    },
-    {
-        // 獲得量x2
-        type: `platinum`,
-        base: 256,
-        multi: 32
-    },
-    {
-        // platinum+10
-        type: `platinum`,
-        base: 1024,
-        multi: 4
-    },
-    {
-        // 確率+100000%
-        type: `indium`,
-        base: 1,
-        multi: 6
-    },
-    {
-        // platinum自動+10%
-        type: `indium`,
-        base: 64,
-        multi: 8
-    },
-    {
-        // 獲得量x2
-        type: `indium`,
-        base: 256,
-        multi: 64
-    },
-    {
-        // indium+10
-        type: `indium`,
-        base: 1024,
-        multi: 4
-    },
-    {
-        // 確率+10000000%
-        type: `cookie`,
-        base: 1,
-        multi: 8
-    },
-    {
-        // indium自動+10%
-        type: `cookie`,
-        base: 64,
-        multi: 8
-    },
-    {
-        // 獲得量x2
-        type: `cookie`,
-        base: 256,
-        multi: 64
-    },
-    {
-        // cookie+10
-        type: `cookie`,
-        base: 1024,
-        multi: 4
-    },
-    {
-        // 全自動+10%
-        type: `cookie`,
-        base: 8192,
-        multi: 16
-    },
-    {
-        // 自動購入
-        type: `cookie`,
-        base: 65536,
-        multi: 65536
-    },
-];
-
-const playerStatus = new Map();
-
-world.afterEvents.playerJoin.subscribe(ev => {
-    const { playerId } = ev;
-    if (!playerStatus.has(playerId)) return;
-    playerStatus.set(playerId, {
-        
-    });
+world.afterEvents.playerSpawn.subscribe(ev => {
+    const { initialSpawn, player } = ev;
+    if (!initialSpawn || playerState.has(player.id)) return;
+    const dp = player.getDynamicProperty(`lotm:data`) === undefined ? defaultDp : JSON.parse(player.getDynamicProperty(`lotm:data`));
+    playerState.set(player.id, JSON.parse(dp));
 });
 
 world.beforeEvents.itemUse.subscribe(ev => {
@@ -185,6 +46,10 @@ world.beforeEvents.itemUse.subscribe(ev => {
                 });
                 form.show();
                 break;
+            case `minecraft:blaze_rod`:
+                source.setDynamicProperties(JSON.stringify(defaultDp));
+                playerState.set(source.id, )
+                break;
         };
     });
 });
@@ -195,7 +60,7 @@ world.afterEvents.playerBreakBlock.subscribe(ev => {
     const itemId = itemStackAfterBreak.typeId;
     switch (itemId) {
         case `minecraft:emerald`:
-            const dp = player.getDynamicProperty(`lotm:data`) === undefined ? `` : JSON.parse(player.getDynamicProperty(`lotm:data`));
+            const dp = player.getDynamicProperty(`lotm:data`) === undefined ? defaultDp : JSON.parse(player.getDynamicProperty(`lotm:data`));
 
             break;
     };
