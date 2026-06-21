@@ -1,0 +1,58 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.black_shadow_wand",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [-2, -7, 0],
+					"rotation": [-90, 0, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)"
+				},
+				{
+					"name": "wand",
+					"parent": "root_item",
+					"pivot": [-8, -7, 0],
+					"cubes": [
+						{"origin": [-3, -8, -8], "size": [2, 2, 28], "uv": [4, 0]}
+					]
+				},
+				{
+					"name": "orb",
+					"parent": "wand",
+					"pivot": [-8, -7, 0],
+					"cubes": [
+						{"origin": [-4, -9, -14], "size": [4, 4, 4], "uv": [48, 0]}
+					]
+				},
+				{
+					"name": "flame",
+					"parent": "orb",
+					"pivot": [-8, -7, 0],
+					"cubes": [
+						{"origin": [0.5, -9.5, -15.5], "size": [1, 5, 1], "uv": [60, 8]},
+						{"origin": [-5.5, -9.5, -15.5], "size": [1, 5, 1], "uv": [60, 8]},
+						{"origin": [-5.5, -9.5, -9.5], "size": [1, 5, 1], "uv": [60, 8]},
+						{"origin": [0.5, -9.5, -9.5], "size": [1, 5, 1], "uv": [60, 8]},
+						{"origin": [0.5, -4.5, -14.5], "size": [1, 1, 5], "uv": [48, 8]},
+						{"origin": [-5.5, -4.5, -14.5], "size": [1, 1, 5], "uv": [48, 8]},
+						{"origin": [-5.5, -10.5, -14.5], "size": [1, 1, 5], "uv": [48, 8]},
+						{"origin": [0.5, -10.5, -14.5], "size": [1, 1, 5], "uv": [48, 8]},
+						{"origin": [-4.5, -4.5, -15.5], "size": [5, 1, 1], "uv": [52, 14]},
+						{"origin": [-4.5, -4.5, -9.5], "size": [5, 1, 1], "uv": [52, 14]},
+						{"origin": [-4.5, -10.5, -9.5], "size": [5, 1, 1], "uv": [52, 14]},
+						{"origin": [-4.5, -10.5, -15.5], "size": [5, 1, 1], "uv": [52, 14]}
+					]
+				}
+			]
+		}
+	]
+}

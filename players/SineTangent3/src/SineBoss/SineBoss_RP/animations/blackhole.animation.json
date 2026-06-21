@@ -1,0 +1,19 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.blackhole.dilation": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 10.0000,
+			"bones": {
+				"root": {
+					"scale": {
+						"0.0": [1.0, 1.0, 1.0],
+						"7.7": [4.0, 4.0, 4.0],
+						"7.8": [4.5, 4.5, 4.5],
+						"7.85": [0.0, 0.0, 0.0]
+					}
+				}
+			}
+		}
+	}
+}

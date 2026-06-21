@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.black_shadow": {
+            "initial_state": "idle_1",
+            "states": {
+                "idle_1": {
+                    "blend_transition": 0.2,
+                    "animations": ["idle_1"],
+                    "transitions": [
+                        {
+                            "shoot_1": "query.health <= 10"
+                        }
+                    ]
+                },
+                "shoot_1": {
+                    "blend_transition": 0.3,
+                    "animations": ["shoot_1"],
+                    "transitions": [
+                        {
+                            "idle_2": "query.health < 3"
+                        }
+                    ]
+                },
+                "idle_2": {
+                    "blend_transition": 0.2,
+                    "animations": ["idle_2"],
+                    "transitions": [
+                        {
+                            "shoot_1": "query.health > 30"
+                        }
+                    ]
+                }
+            }
+        }
+	}
+}

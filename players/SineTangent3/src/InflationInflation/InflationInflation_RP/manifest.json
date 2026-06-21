@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Inflation Inflation",
+    "description": "eeeeeeeeee...",
+    "uuid": "8e397b20-19e9-4d0b-b634-44024e6145bc",
+    "version": [1, 0, 0],
+    "min_engine_version": [
+      1,
+      21,
+      101
+    ]
+  },
+  "modules": [
+    {
+      "description": "eeeeeeeeee...",
+      "type": "resources",
+      "uuid": "2a786ed3-88e2-44d6-be1d-e7977e64ca65",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "6e3187ce-b2e0-4c36-be30-5cacd9015fe2",
+      "version": [1, 0, 0]
+    }
+  ]
+}

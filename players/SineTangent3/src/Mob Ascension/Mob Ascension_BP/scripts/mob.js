@@ -81,7 +81,7 @@ const skillData = [
         tag: `mobasce_concept`
     }
 ];
-
+/*
 function sw(entity, skillData, index, name) {
     let newName = name;
     for (let i = 0; i < skillData.length; i++) {
@@ -124,10 +124,10 @@ function skillAdd(entity, skillData, i, index) {
 
 const limitAscension = 100;
 const minLv = 0;
-/** @type { number } */
+/** @type { number } *//*
 let maxLv;
 system.run(() => {
-    /** @type { config } */
+    /** @type { config } *//*
     let dp = JSON.parse(world.getDynamicProperty(`mobasce:data`) ?? JSON.stringify(config));
     maxLv = dp.maxLevel;
     const day = world.getDay();
@@ -348,7 +348,7 @@ world.beforeEvents.entityHurt.subscribe(ev => {
 world.afterEvents.playerSpawn.subscribe(ev => {
     const { player, initialSpawn } = ev;
     if (!initialSpawn) return;
-    /** @type { config } */
+    /** @type { config } *//*
     const dp = JSON.parse(world.getDynamicProperty(`mobasce:data`) ?? JSON.stringify(config));
     player.removeTag(`mobasce_bleeding_alive`);
     player.sendMessage({ translate: `mobasce.message.info`, with: [String(dp.day), String(dp.level), String(dp.maxLevel)] });
@@ -429,7 +429,7 @@ system.afterEvents.scriptEventReceive.subscribe(ev => {
                 break;
         };
     };
-});
+});*/
 
 let bowInterval = [];
 const rotateMulti = 2;

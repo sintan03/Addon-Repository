@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Inflation Inflation",
+    "description": "eeeeeeeeee...",
+    "uuid": "6e3187ce-b2e0-4c36-be30-5cacd9015fe2",
+    "version": [1, 0, 0],
+    "min_engine_version": [
+      1,
+      21,
+      101
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "852b7433-3532-4c3f-b5fa-40a5cb90e190",
+      "entry": "scripts/ii.js",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "eeeeeeeeee...",
+      "type": "data",
+      "uuid": "289a782d-edc0-4345-a13e-47ab1dd60098",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "8e397b20-19e9-4d0b-b634-44024e6145bc",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "beta"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}

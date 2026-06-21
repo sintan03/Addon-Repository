@@ -1,6 +1,3 @@
-pack.name=SineBoss
-pack.description=Boss Addon.
-
 item.sineboss:crushers_axe=§9Crusher's Axe\n§o§lSineBoss§r§f
 item.sineboss:true_crushers_axe=§9True Crusher's Axe\n§o§lSineBoss§r§f
 item.sineboss:crusher_summoner=§9Crusher Spawner\n§o§lSineBoss§r§f
@@ -9,5 +6,10 @@ item.sineboss:crushers_crystal=§9Crusher's Crystal\n§o§lSineBoss§r§f
 item.sineboss:true_crushers_crystal=§9True Crusher's Crystal\n§o§lSineBoss§r§f
 entity.sineboss:crusher.name=§9Crusher§r§f
 entity.sineboss:true_crusher.name=§9True Crusher§r§f
-item.spawn_egg.entity.sineboss:crusher.name=Spawn Crusher
-item.spawn_egg.entity.sineboss:true_crusher.name=Spawn True Crusher
+item.spawn_egg.entity.sineboss:crusher.name=Spawn Crusher\n§o§l§9SineBoss§r§f
+item.spawn_egg.entity.sineboss:true_crusher.name=Spawn True Crusher\n§o§l§9SineBoss§r§f
+
+entity.sineboss:black_shadow.name=§l§5Black Shadow§r§f
+item.spawn_egg.entity.sineboss:black_shadow.name=Spawn Black Shadow\n§o§l§9SineBoss§r§f
+
+item.sineboss:black_shadow_wand.name=§l§5Black Shadow\n§o§l§9SineBoss§r§f

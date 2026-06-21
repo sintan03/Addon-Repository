@@ -1,5 +1,5 @@
 {
-	"resource_pack_name": "blazeio",
+	"resource_pack_name": "SineBoss",
 	"texture_name": "atlas.items",
 	"texture_data": {
 		"sineboss:crushers_axe": {
@@ -10,6 +10,9 @@
 		},
 		"sineboss:crushers_crystal": {
 			"textures": "textures/items/crushers_crystal"
+		},
+		"sineboss:black_shadow_wand": {
+			"textures": "textures/items/black_shadow_wand"
 		}
 	}
 }

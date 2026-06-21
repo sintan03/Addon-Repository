@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "sineboss:black_shadow",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"phase_1": "textures/entity/black_shadow_1",
+				"phase_2": "textures/entity/black_shadow_2"
+			},
+			"geometry": {
+				"default": "geometry.black_shadow"
+			},
+			"scripts": {
+				"animate": [
+					"look_at_target",
+					"controller",
+					"idle_1",
+					"shoot_1",
+					"idle_2"
+				]
+			},
+			"animations": {
+				"look_at_target": "animation.common.look_at_target",
+				"controller": "controller.animation.black_shadow",
+				"idle_1": "animation.black_shadow.idle_1",
+				"shoot_1": "animation.black_shadow.shoot_1",
+				"idle_2": "animation.black_shadow.idle_2"
+			},
+			"render_controllers": [
+				"controller.render.black_shadow"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#ffffff"
+			}
+		}
+	}
+}

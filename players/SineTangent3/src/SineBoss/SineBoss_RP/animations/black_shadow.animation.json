@@ -1,0 +1,70 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.black_shadow.idle_1": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"rightArm": {
+					"rotation": [0, 0, "math.cos(query.life_time * 90) * 2"]
+				},
+				"right": {
+					"rotation": [0, 0, "math.cos(query.life_time * 90) * 2"]
+				},
+				"leftArm": {
+					"rotation": [0, 0, "math.cos(query.life_time * 90 + 180) * 2"]
+				},
+				"left": {
+					"rotation": [0, 0, "math.cos(query.life_time * 90 + 180) * 2"]
+				}
+			}
+		},
+		"animation.black_shadow.shoot_1": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 100,
+			"bones": {
+				"rightArm": {
+					"rotation": ["-math.max(150 - math.sin(math.min(query.life_time * 180, 90)) * query.life_time * 270, 90) + math.cos(query.life_time * 180) * 2", 0, 0]
+				},
+				"right": {
+					"rotation": ["-math.max(150 - math.sin(math.min(query.life_time * 180, 90)) * query.life_time * 270, 90) + math.cos(query.life_time * 180) * 2", 0, 0]
+				},
+				"leftArm": {
+					"rotation": [
+						"-math.min(0 + math.sin(math.min(query.life_time * 180, 90)) * query.life_time * 270, 90) + math.cos(query.life_time * 180 - 45) * 2",
+						"-math.max(0 - math.sin(math.min(query.life_time * 180, 90)) * query.life_time * 270, -50) + math.cos(query.life_time * 180 - 45) * 2",
+						0
+					]
+				},
+				"left": {
+					"rotation": [
+						"-math.min(0 + math.sin(math.min(query.life_time * 180, 90)) * query.life_time * 270, 90) + math.cos(query.life_time * 180 - 45) * 2",
+						"-math.max(0 - math.sin(math.min(query.life_time * 180, 90)) * query.life_time * 270, -50) + math.cos(query.life_time * 180 - 45) * 2",
+						0
+					]
+				}
+			}
+		},
+		"animation.black_shadow.idle_2": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"rightArm": {
+					"rotation": ["-math.cos(query.life_time * 90) * 5 - 10", 0, "math.cos(query.life_time * 90) * 2"]
+				},
+				"right": {
+					"rotation": ["-math.cos(query.life_time * 90) * 5 - 10", 0, "math.cos(query.life_time * 90) * 2"]
+				},
+				"leftArm": {
+					"rotation": [0, 0, "math.cos(query.life_time * 90 + 180) * 2"]
+				},
+				"left": {
+					"rotation": [0, 0, "math.cos(query.life_time * 90 + 180) * 2"]
+				},
+				"wand": {
+					"rotation": ["-math.cos(query.life_time * 90) * 5 + 60", 0, 0]
+				}
+			}
+		}
+	}
+}

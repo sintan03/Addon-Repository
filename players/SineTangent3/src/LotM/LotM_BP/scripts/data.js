@@ -39,13 +39,13 @@ export const itemData = [
     {
         // 採掘速度
         type: `block`,
-        base: 64,
+        base: 32,
         multi: 2
     },
     {
         // 獲得量x2
         type: `block`,
-        base: 128,
+        base: 64,
         multi: 8
     },
     {
