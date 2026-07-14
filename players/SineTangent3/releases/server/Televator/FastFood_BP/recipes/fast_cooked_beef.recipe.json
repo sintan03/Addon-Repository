@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "fastfood:fast_cooked_beef.recipe"
+        },
+
+        "tags": [ "crafting_fast" ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "item": "minecraft:cooked_beef",
+                "count": 1
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:cooked_beef"
+            }
+        ],
+        "result": {
+            "item": "fastfood:fast_cooked_beef",
+            "count": 1
+        }
+    }
+}

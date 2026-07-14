@@ -1,0 +1,33 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fastfood:fast_crafting_table.recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            "DSD",
+            "SSS",
+            "DSD"
+        ],
+        "key": {
+            "D": {
+                "item": "minecraft:diamond"
+            },
+            "S": {
+                "item": "minecraft:stone"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:cobblestone"
+            }
+        ],
+        "result": {
+            "item": "fastfood:fast_crafting_table",
+            "count": 1
+        }
+    }
+}

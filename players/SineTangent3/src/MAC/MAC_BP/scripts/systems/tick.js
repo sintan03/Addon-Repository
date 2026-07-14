@@ -34,7 +34,7 @@ server.system.beforeEvents.startup.subscribe(initEvent => {
                     const converted = convert[recipe.input[i]];
                     if (converted === undefined) { console.error(`変換先のアイテムがありません、多分`); return; };
                     if (invitems.id[i] !== converted) break;
-                    if (recipes[0].inputAmount.length === 81 && invitems.id[i] !== `minecraft:air`) {
+                    if (recipe.inputAmount.length === 81 && invitems.id[i] !== `minecraft:air`) {
                         if (invitems.amount[i] < recipe.inputAmount[i]) break;
                     };
                     if (i === 80) complete = true;
